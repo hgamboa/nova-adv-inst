@@ -10,7 +10,7 @@
 
 ## Lab Goals
 
-### Goal 1
+## Goal 1
 * Run the code on the ide to run the blinkng code .c (TO EDIT)
 
 ## Goal 2
