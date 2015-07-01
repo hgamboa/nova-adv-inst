@@ -15,11 +15,11 @@
 
 ## Goal 2
 
-* Read a square function with  from an analog entry 
+* Read a square function with  from an analog entry. 
 * Attention the amplitude should be lower than 5v (TO CHECK)
 
 ## Goal 3
-* Activate the PWM with a 1kHz function
+* Activate the PWM with a 1kHz function and connecto to the table buzzer.
 
 
 ## Going deeper steps
