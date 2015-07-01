@@ -5,7 +5,7 @@ Class Materials
 
 Lab Courses
 
-## [Lab 1 - Setting up Arduino](Lab1.md)
+## [Lab 1 - Setting up Arduino](lab1.md)
 - **Goal** : to turn place a blinking led
  
 
