@@ -6,4 +6,8 @@ Class Materials
 Lab Courses
 
 ## Lab 1 - Setting up Arduino
-- Goal to turn place a blinking led
+- Goal : to turn place a blinking led
+ 
+
+## Lab 2 - Setting up Raspberry pi
+
