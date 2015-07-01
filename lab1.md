@@ -15,7 +15,7 @@
 
 ## Goal 2
 
-* Read a square function with  from an analog entry. 
+* Read a square function with from an analog entry and turn on the led if value higher than 3V.
 * Attention the amplitude should be lower than 5v (TO CHECK)
 
 ## Goal 3
