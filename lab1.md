@@ -15,7 +15,7 @@
 
 ## Goal 2
 
-* Read a square function with from an analog entry and turn on the led if value higher than 3V.
+* Read a square function with  from an analog entry. 
 * Attention the amplitude should be lower than 5v (TO CHECK)
 
 ## Goal 3
@@ -25,12 +25,17 @@
 ## Going deeper steps
 * Get to know the Atmega arquitecture: http://www.atmel.com/devices/atmega328p.aspx
 * Check project done with arduino: 
+http://www.makeuseof.com/tag/10-great-arduino-projects-for-beginners
+https://startingelectronics.org/beginners/start-electronics-now/tut10-ten-arduino-projects-for-absolute-beginners/
+http://www.instructables.com/id/Beginner-Arduino/
+* You can used 123D circuits to simulate, program and test Arduino code: https://123d.circuits.io
+
+
 
 ## Links
 
 (TODO)
 
 
-## Trouble shooting
 
 
