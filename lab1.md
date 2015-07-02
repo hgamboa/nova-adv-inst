@@ -45,7 +45,7 @@ __THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLL
 
 * Combine the previous two goals on a threshold detector
 * Read an analog input and if higher than 3V turn on the led.
-* Attention the amplitude should be lower than 5v (TO CHECK)
+* **Attention** the amplitude should be lower than 5v.
 
 ## Goal 4 - Dimming a light.
 * Activate the PWM with a 1kHz function and to dim the led light. 
