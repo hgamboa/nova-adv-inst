@@ -9,11 +9,6 @@
  * Check that **board** sub menu is "Arduino Uno"
  * Adjust **port** sub menu to the arduino comm port.
 
-Macos: 
-/dev/cu.usbmodemNNNN
-
-Windows:
-
 **WARNING**
 
 __THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLLY DAMAGE THE BOARD.__
