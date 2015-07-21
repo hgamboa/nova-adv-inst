@@ -12,5 +12,5 @@ Lab Lessons
 - **Goal** : to turn place a blinking led
  
 
-## Lab 2 - Setting up Raspberry pi
+## [Lab 2 - Install Raspberry pi and Linux commands](lab2.md)
 
