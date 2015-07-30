@@ -22,7 +22,7 @@ In order to install the image file on your SD card, you need an image writing to
 ### Connect Raspberry Pi to other devices
 * Connect Raspberry Pi to the mouse, the keyboard and the power supply;
 * Insert the SD Card with the Raspberry Pi operating system image in the slot;
-* Connect the monitor to the Raspbery Pi, so your can see its ID. (ID?)
+* Connect the monitor to the Raspberry Pi, so your can see its IP adress.
 
 ### Initialize the Raspberry Pi
 
