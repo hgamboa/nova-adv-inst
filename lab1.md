@@ -1,9 +1,13 @@
 # Lab 1 - Setting up Arduino
 
 
-## Starting steps
+## Pre Lab requirments
 
 * Install arduino IDE at  https://www.arduino.cc/en/Main/Software
+
+
+## Starting steps
+* Open arduino IDE
 * Connect via USB cable (A-B usb cable) to your laptop
 * Set connection on **tools** menu 
  * Check that **board** sub menu is "Arduino Uno"
