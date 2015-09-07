@@ -47,7 +47,7 @@ __THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLL
 * **Attention** the amplitude should be lower than 5v.
 
 ## Goal 4 - Dimming a light.
-* Activate the PWM with a 1kHz function and to dim the led light. 
+* Activate the PWM with a 1kHz function to dim the led light. 
 * Use the code example
 * Verify on the osciloscope the PWM frequency and the width of the square wave. 
  
