@@ -44,7 +44,7 @@
  * Install python packages 
  * Teste ipython 
 ```
- > sudo app-get install ...
+ > sudo app-get install ipython python-scipy python-matplotlib ipython-notebook
 ```
 ## Goal 4 - setup ipython notebook server
 
