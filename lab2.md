@@ -29,14 +29,20 @@
 > vi sudo
 ```
 ## Goal 2 - Connect over ssh and tranfer files
+ * Install openssh-server 
+```
+> sudo apt-get install openssh-server
+> reboot
+```
+ * delete and create a new newtwork device in virtual box and set to host-only
+ * edit a file with vi remotely
+ * copy a file over ssh
 
-* edit a file with vi remotely
-* copy a file over ssh
 
-
-## Goal 3 - Install packages
+## Goal 3 - Install python  packages
 
  * Install python packages 
+ * Teste ipython 
 ```
  > sudo app-get install ...
 ```
