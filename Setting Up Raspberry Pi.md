@@ -33,11 +33,9 @@
   password: raspberry
 * After the command line prompt:
 
-...
   > pi@raspberrypi~$ startx
-...
 
-and press Enter.
+  and press Enter.
 
 ## HELP
 
@@ -46,9 +44,7 @@ http://raspberrypi.stackexchange.com/questions/236/simple-keyboard-configuration
 
 Use the command:
 
-...
   > $ sudo dpkg-reconfigure keyboard-configuration
-...
 
 to reconfigure your keyboard. Choose "Portugues" for keyboard layout. Then , reboot.
 
