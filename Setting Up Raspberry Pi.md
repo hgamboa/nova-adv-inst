@@ -9,13 +9,13 @@
   - Power supply
   - Internet connection (via an ethernet cable or a wifi adapter)
 
-  1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi, which will only fit one way.
+  1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi.
   2. Next, plug in your USB keyboard and Mouse into the USB slots on the Raspberry Pi.
   3. Make sure that your monitor or TV is turned on, and that you have selected the right input (e.g. HDMI 1, DVI, etc).
   4. Then connect your HDMI cable from your Raspberry Pi to your monitor or TV.
   5. To connect your Raspberry Pi to the internet, plug in an ethernet cable into the ethernet port next to the USB ports or
   plug in your Wireless nano USB Adapter into the USB slot. 
-  6. Finally plug in the micro usb power supply. This action will turn on and boot your Raspberry Pi.
+  6. Finally plug in the micro usb power supply. Your Raspberry Pi will turn on and boot.
 
 ## LOGGING INTO YOUR RASPBERRY PI
 
@@ -29,9 +29,11 @@
 
 
 * Login prompt:
-  username: pi
-  password: raspberry
-* After the command line prompt:
+
+  > username: pi
+  > password: raspberry
+
+* After the command line prompt (pi@raspberrypi~$) wirte "startx":
 
   > pi@raspberrypi~$ startx
 
@@ -42,10 +44,12 @@
 * If you have problems with keyboard configuration:
 http://raspberrypi.stackexchange.com/questions/236/simple-keyboard-configuration
 
-Use the command:
+Use the following command to reconfigure your keyboard:
 
-  > $ sudo dpkg-reconfigure keyboard-configuration
+  > sudo dpkg-reconfigure keyboard-configuration
 
-to reconfigure your keyboard. Choose "Portugues" for keyboard layout. Then , reboot.
+Choose "Portugues" for keyboard layout. Then , reboot.
+
+  > sudo reboot
 
 
