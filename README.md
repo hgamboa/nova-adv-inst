@@ -5,3 +5,6 @@ Lab Lessons
 
 ## [Lab 1 - Setting up Arduino](lab1.md)
 
+## [Lab 2 - Creating a virtual machine](lab2.md)
+
+## [Lab 1 - Visualization](lab3.md)
