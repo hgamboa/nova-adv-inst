@@ -1,4 +1,4 @@
-# Lab 1 - Vizualization
+# Lab 1 - Visualization
 
 
 ## Pre Lab requirments
