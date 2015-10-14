@@ -80,12 +80,12 @@ Learn the following function:
     
 * Save the data received from pin A0 in a file 'data_analog.txt'.
 * The file should have 2 columns:
-- Column 1 - current time (s)
-- Column 2 - pin A0 data (V)
+ - Column 1 - current time (s)
+ - Column 2 - pin A0 data (V)
 
 Learn the following functions:
 ```
-    >>> file.open('data_analog.txt', w)
+    >>> file.open('data_analog.txt', 'w')
     >>> file.write()
     >>> file.close()
  ```
