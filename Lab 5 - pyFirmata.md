@@ -58,6 +58,7 @@ Learn the following functions:
 ```
     >>> board.digital[pin_nr].write(pin_value) # set the pin values high or low (1 and 0, respectively)
     >>> board.pass_time(t) # Non-blocking time-out for t seconds
+    >>> board.exit()
 ```
 
 ### Exercise 2 - Controlling analog ports
@@ -69,17 +70,18 @@ Learn the following functions:
     >>> board.analog[0].enable_reporting()
 ```
 
-* Reads an analog input on pin A0, and prints the result each 5 s, repeatedly.
+* Reads an analog input on pin A0, and prints the result, repeatedly for 2 minutes (sampling_rate = 10 Hz).
 
 Learn the following function:
 ```
+    >>> time.time()
     >>> board.analog[0].read()
 ```
     
 * Save the data received from pin A0 in a file 'data_analog.txt'.
-The file should have 2 columns:
-Column 1 - current time (s)
-Column 2 - pin A0 data (V)
+* The file should have 2 columns:
+- Column 1 - current time (s)
+- Column 2 - pin A0 data (V)
 
 Learn the following functions:
 ```
