@@ -4,7 +4,7 @@
 ## Setting up your Arduino for Firmata
 
 * Open arduino IDE (using your laptop)
-* Connect Arduno board via USB cable (A-B usb cable) to your laptop
+* Connect Arduino board via USB cable (A-B usb cable) to your laptop
 
 * Set connection on **tools** menu:
   - Check that **board** sub menu is "Arduino Uno"
