@@ -72,7 +72,7 @@ Learn the following functions:
 
 * Reads an analog input on pin A0, and prints the result, repeatedly for 2 minutes (sampling_rate = 10 Hz).
 
-Learn the following function:
+Learn the following functions:
 ```
     >>> time.time()
     >>> board.analog[0].read()
@@ -99,6 +99,12 @@ Learn the following functions:
 * The time to reach the max/min of brightness should be 5 s
 * Number of steps to get to the max/min -> use STEPS = 10
 * The LED should be brightening and dimming repeatedly for 2 minutes
+
+Learn the following functions:
+```
+    >>> digital_a0 = board.get_pin()
+    >>> digital_a0.write()
+```
 
 ## Links
 * http://raspberrypi-aa.github.io/session3/firmata.html
