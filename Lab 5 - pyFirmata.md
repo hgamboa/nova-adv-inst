@@ -19,15 +19,15 @@
 * Using TightVNC Viewer connect to the Raspberry Pi
 * Set up your Raspberry Pi with the python firmata libraries.
   Run the following commands:
-    > pi@raspberrypi~$ sudo pip apt-get install python-pip python-serial
-		> pi@raspberrypi~$ sudo pip install pyfirmata
+	> pi@raspberrypi~$ sudo pip apt-get install python-pip python-serial
+	> pi@raspberrypi~$ sudo pip install pyfirmata
 
 HELP: If you do not have pip installed go to: 
 https://pip.pypa.io/en/latest/installing/#install-pip
 
 * Find out the port name for the USB interface used:
   - Run this command in terminal without Arduino plugged in:
-		> ls /dev/tty*
+	> ls /dev/tty*
   - Plug in the Arduino to the Raspberry Pi with USB cable
   - Run the command again. If a new name appears, then this is the name of your port. 
   Register it to be further used.
