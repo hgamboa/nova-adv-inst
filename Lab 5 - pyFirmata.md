@@ -19,15 +19,20 @@
 * Using TightVNC Viewer connect to the Raspberry Pi
 * Set up your Raspberry Pi with the python firmata libraries.
   Run the following commands:
-	> pi@raspberrypi~$ sudo pip apt-get install python-pip python-serial
-	> pi@raspberrypi~$ sudo pip install pyfirmata
+```
+> pi@raspberrypi~$ sudo pip apt-get install python-pip python-serial
+> pi@raspberrypi~$ sudo pip install pyfirmata
+```
 
 HELP: If you do not have pip installed go to: 
 https://pip.pypa.io/en/latest/installing/#install-pip
 
 * Find out the port name for the USB interface used:
   - Run this command in terminal without Arduino plugged in:
-	> ls /dev/tty*
+```
+> ls /dev/tty*
+```
+
   - Plug in the Arduino to the Raspberry Pi with USB cable
   - Run the command again. If a new name appears, then this is the name of your port. 
   Register it to be further used.
@@ -36,8 +41,10 @@ https://pip.pypa.io/en/latest/installing/#install-pip
 
 * Create a file.py in ‘/home/pi/lab5’ directory’
 * Import the Arduino and util classes from the pyfirmata module and create an object using the USB address you found in the previous step:
-			>>> from pyfirmata import Arduino, util
-			>>> board = Arduino('/dev/ttyUSB0') # example
+```
+>>> from pyfirmata import Arduino, util
+>>> board = Arduino('/dev/ttyUSB0') # example
+```
 
 ## Controlling Arduino
 
@@ -48,19 +55,26 @@ https://pip.pypa.io/en/latest/installing/#install-pip
 * Close pyFirmata after it is done
 
 Learn the following functions:
+```
     >>> board.digital[pin_nr].write(pin_value) # set the pin values high or low (1 and 0, respectively)
     >>> board.pass_time(t) # Non-blocking time-out for t seconds
+```
 
 ### Exercise 2 - Controlling analog ports
 
 * To use analog ports, it is handy to start an iterator thread:
+```
     >>> it = util.Iterator(board)
     >>> it.start()
     >>> board.analog[0].enable_reporting()
+```
+
 * Reads an analog input on pin A0, and prints the result each 5 s, repeatedly.
 
 Learn the following function:
+```
     >>> board.analog[0].read()
+```
     
 * Save the data received from pin A0 in a file 'data_analog.txt'.
 The file should have 2 columns:
@@ -68,9 +82,11 @@ Column 1 - current time (s)
 Column 2 - pin A0 data (V)
 
 Learn the following functions:
+```
     >>> file.open('data_analog.txt', w)
     >>> file.write()
     >>> file.close()
+ ```
 
 * Question: What is the maximum sampling rate you can use to acquire the signal?
 
