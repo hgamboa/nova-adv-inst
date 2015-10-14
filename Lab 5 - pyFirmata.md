@@ -92,4 +92,18 @@ Learn the following functions:
 
 * Question: What is the maximum sampling rate you can use to acquire the signal?
 
+### Exercise 3 - Dimming a LED
+
+* Adapt the code from link 4 about dimming a LED
+* Define a digital pin as PWM
+* The time to reach the max/min of brightness should be 5 s
+* Number of steps to get to the max/min -> use STEPS = 10
+* The LED should be brightening and dimming repeatedly for 2 minutes
+
+## Links
+* http://raspberrypi-aa.github.io/session3/firmata.html
+* https://github.com/tino/pyFirmata/
+* https://media.readthedocs.org/pdf/pyfirmata/latest/pyfirmata.pdf
+* Dimming a LED: http://fabian-affolter.ch/blog/dimming-a-led-with-pyfirmata/
+
 
