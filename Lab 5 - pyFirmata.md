@@ -39,7 +39,7 @@ https://pip.pypa.io/en/latest/installing/#install-pip
   
 ## Connecting to an Arduino
 
-* Create a file.py in ‘/home/pi/lab5’ directory’
+* Create a file 'ex1.py' in ‘/home/pi/lab5’ directory
 * Import the Arduino and util classes from the pyfirmata module and create an object using the USB address you found in the previous step:
 ```
 >>> from pyfirmata import Arduino, util
