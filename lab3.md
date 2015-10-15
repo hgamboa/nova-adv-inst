@@ -1,4 +1,4 @@
-# Lab 1 - Visualization
+# Lab 4 - Seting up a vizualization server
 
 
 ## Pre Lab requirments
@@ -13,34 +13,25 @@
 
 ## Lab Goals
 
-## Goal 1 - Transfer function of a low pass
 
-* Plot the DB of the transfer function of the gain in a frequency log scale.
-** |H| = 1/sqrt(1 + (f/f_c)^2)
-
-* Plot the phase of the transfer function in degrees in a frequency log scale.
-** phase(H) = -2 arctan(f/f_c)$
+## Goal 1 - setup Jupyter notebook server
 
 
-## Goal 2 - Random walk
+* copy next file to ~/.jupyter/jupyter_notebook_config.py
 
-* Plot a random walk (1000 samples)
-* Plot the mean sliding window (using ni.smooth, with 50 samples window).
-* Plot the variance band.
-* Draw multiples superimposed random walks.
+'
+# Configuration file for jupyter notebook.
+c = get_config()
+c.NotebookApp.ip = '*'
+c.NotebookApp.open_browser = False
+c.NotebookApp.password = u'sha1:ceaf7b8b148f:92bcc3411cf43275a324e8a8b6755601b5419610'
+c.NotebookApp.port = 80
+c.IPKernelApp.pylab = 'inline'
+'
 
-## Goal 3 - XY Graph
+## Goal 2 - Launch the bokeh-server
 
-* Draw a xy graph of a sin(w) and cos(2w)
-* Adjust the axis to be a square figure
-* Place 9 lissajous figures in subplots
 
-## Goal 4 - Matrix images
-
-* Create a matrix of zeros and draw a circle 
-by turning some points to 1
-* Smooth the image with a vertical smooth by passing in each column.
-* Smooth the image with a vertical smooth and horizontal pass.
 
 ## Going deeper 
 * See the workshop from Cristine Doig: http://chdoig.github.io/scipy2015-blaze-bokeh/#/

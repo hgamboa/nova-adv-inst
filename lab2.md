@@ -46,9 +46,6 @@
 ```
  > sudo apt-get install ipython python-scipy python-matplotlib ipython-notebook
 ```
-## Goal 4 - setup ipython notebook server
-
- * Follow the guidelines: https://ipython.org/ipython-doc/1/interactive/public_server.html
 
 ## Going deeper 
 * Check the shell tutotial http://www.ee.surrey.ac.uk/Teaching/Unix/

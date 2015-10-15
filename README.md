@@ -7,4 +7,8 @@ Lab Lessons
 
 ## [Lab 2 - Creating a virtual machine](lab2.md)
 
-## [Lab 3 - Visualization](lab3.md)
+## [Lab 3 - Seting up a vizualization server](lab3.md)
+
+## [Lab 4 - Visualization](lab4.md)
+
+## [Lab 5 - Connecting to Raspberry pi ](lab5.md)
