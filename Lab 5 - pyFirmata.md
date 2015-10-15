@@ -1,7 +1,9 @@
-# Lab 5 - PyFirmata
+# Lab 5 - Controlling your Arduino from the raspberry pi using Python PyFirmata
 
 
-## Setting up your Arduino for Firmata
+## Pre requirements 
+
+### Setting up your Arduino for Firmata
 
 * Open arduino IDE (using your laptop)
 * Connect Arduino board via USB cable (A-B usb cable) to your laptop
@@ -14,18 +16,17 @@
   - Select **Examples** -> **Firmata** -> **StandardFirmata**
   - **Verify** and **Upload** Standard Firmata code to the Arduino board
 
-## Controlling your Arduino from Python
+### Installing pyfirmata 
 
-* Using TightVNC Viewer connect to the Raspberry Pi
+* Connect via ssh to rapsberry pi
 * Set up your Raspberry Pi with the python firmata libraries.
   Run the following commands:
 ```
-> pi@raspberrypi~$ sudo pip apt-get install python-pip python-serial
+> pi@raspberrypi~$ sudo apt-get install python-serial
 > pi@raspberrypi~$ sudo pip install pyfirmata
 ```
 
-HELP: If you do not have pip installed go to: 
-https://pip.pypa.io/en/latest/installing/#install-pip
+### Find arduino port
 
 * Find out the port name for the USB interface used:
   - Run this command in terminal without Arduino plugged in:
@@ -37,18 +38,17 @@ https://pip.pypa.io/en/latest/installing/#install-pip
   - Run the command again. If a new name appears, then this is the name of your port. 
   Register it to be further used.
   
-## Connecting to an Arduino
+## Goal 1 - Connecting to an Arduino
 
-* Create a file 'ex1.py' in ‘/home/pi/lab5’ directory
+* Create a file 'ex1.py' in ‘/home/pi/lab5’ directory (or open an ipython console)
 * Import the Arduino and util classes from the pyfirmata module and create an object using the USB address you found in the previous step:
 ```
 >>> from pyfirmata import Arduino, util
 >>> board = Arduino('/dev/ttyUSB0') # example
 ```
 
-## Controlling Arduino
 
-### Exercise 1 -  Blink a LED
+## Goal 2 -  Blink a LED
 
 * Use digital pin 13, which is connected to an internal LED.
 * LED on pin 13 should blink for 10 times (time ON = 1s and time OFF = 1s)
@@ -61,7 +61,7 @@ Learn the following functions:
     >>> board.exit()
 ```
 
-### Exercise 2 - Controlling analog ports
+### Goal 3 - Controlling analog ports
 
 * To use analog ports, it is handy to start an iterator thread:
 ```
@@ -92,7 +92,7 @@ Learn the following functions:
 
 * Question: What is the maximum sampling rate you can use to acquire the signal?
 
-### Exercise 3 - Dimming a LED
+## Goal 4 - Dimming a LED
 
 * Adapt the code from link 4 about dimming a LED
 * Define a digital pin as PWM
@@ -105,6 +105,8 @@ Learn the following functions:
     >>> digital_a0 = board.get_pin()
     >>> digital_a0.write()
 ```
+
+## Goal 5 - Write to a file 
 
 ## Links
 * http://raspberrypi-aa.github.io/session3/firmata.html

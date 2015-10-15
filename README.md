@@ -12,3 +12,5 @@ Lab Lessons
 ## [Lab 4 - Visualization](lab4.md)
 
 ## [Lab 5 - Connecting to Raspberry pi ](lab5.md)
+
+## [Lab 6 - Controling Arduino from Raspberry](lab6.md)
