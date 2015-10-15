@@ -1,4 +1,4 @@
-# Lab 4 - Connecting to Raspberry Pi
+# Lab 5 - Connecting to Raspberry Pi
 
 
 ## Pre Lab requirments
