@@ -108,6 +108,9 @@ Learn the following functions:
 
 ## Goal 5 - Write to a file 
 
+* During 10 seconds write to a file the value at A0 at a frequency of one sample per second
+* Use a format of time [tab] sample per line
+
 ## Links
 * http://raspberrypi-aa.github.io/session3/firmata.html
 * https://github.com/tino/pyFirmata/
