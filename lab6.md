@@ -1,4 +1,4 @@
-# Lab 5 - Controlling your Arduino from the raspberry pi using Python PyFirmata
+# Lab 6 - Controlling Arduino from the Raspberry pi using Python PyFirmata
 
 
 ## Pre requirements 
@@ -106,10 +106,6 @@ Learn the following functions:
     >>> digital_a0.write()
 ```
 
-## Goal 5 - Write to a file 
-
-* During 10 seconds write to a file the value at A0 at a frequency of one sample per second
-* Use a format of time [tab] sample per line
 
 ## Links
 * http://raspberrypi-aa.github.io/session3/firmata.html

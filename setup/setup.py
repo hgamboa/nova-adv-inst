@@ -14,6 +14,7 @@ def getmac(iface):
 
 local_ip = int(getmac('wlan0').strip().split(':')[-1],16)
 
+# Show the local ip
 print local_ip
 
 

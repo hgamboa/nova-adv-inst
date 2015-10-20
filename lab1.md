@@ -1,6 +1,5 @@
 # Lab 1 - Setting up Arduino
 
-
 ## Pre Lab requirments
 
 * Install arduino IDE at  https://www.arduino.cc/en/Main/Software
