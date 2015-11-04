@@ -14,3 +14,10 @@ Lab Lessons
 ## [Lab 5 - Connecting to Raspberry pi ](lab5.md)
 
 ## [Lab 6 - Controling Arduino from Raspberry](lab6.md)
+
+## [Lab 7 - Logging data and realtime plotting](lab7.md)
+
+## [Lab 8 - Mobile intrumentation](lab8.md)
+
+
+
