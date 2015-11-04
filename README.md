@@ -17,7 +17,7 @@ Lab Lessons
 
 ## [Lab 7 - Logging data and realtime plotting](lab7.md)
 
-## [Lab 8 - Mobile intrumentation](lab8.md)
+## [Lab 8 - Mobile instrumentation](lab8.md)
 
 
 
