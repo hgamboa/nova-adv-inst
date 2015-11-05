@@ -32,7 +32,7 @@ Hello, Cordova
 
 Use a template with several tabs and in one of the tabs include the front page of wikipedia.
 
-* Use the "<iframe>" element.
+* Use the iframe element.
 
 ## Goal 3 - Create a graph in a webview
 
