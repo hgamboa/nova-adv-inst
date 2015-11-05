@@ -28,12 +28,21 @@ Hello, Cordova
 
 Use a template with several tabs and in one of the tabs include the front page of wikipedia.
 
+* Use the "<iframe>" element.
 
 ## Goal 3 - Create a graph in a webview
 
-Base the application on javascript on a flot realtime example to plot a graph of an accelerometer measurement.
+* Base the application on javascript on a flot realtime example to plot a graph of an accelerometer measurement.
 
 http://www.flotcharts.org/flot/examples/realtime/
+
+* Find the location where new data is added and substitute for data from the accelerometer.
+
+
+## Goal 4 - Observe a bokeh plot from raspberry pi 
+
+
+https://github.com/bokeh/bokeh/blob/fe3ce529256f3f3a8ac92aa10acc42d39f91c33d/examples/embed/publishing.py
 
 
 
