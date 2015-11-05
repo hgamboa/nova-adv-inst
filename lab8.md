@@ -4,17 +4,21 @@
 
 * Install xdk platform 
 
-Dwonload the https://software.intel.com/pt-br/intel-xdk
+Download the https://software.intel.com/pt-br/intel-xdk
 
 Register at https://software.intel.com/registration/?lang=pt-br
 
-Bring an android/iphone phone with the xdk app installed :
+Bring an android/iphone/windows phone with the xdk app installed :
 
 https://play.google.com/store/apps/details?id=com.intel.html5tools.apppreview
 
 or
 
 https://itunes.apple.com/us/app/intel-app-preview/id725023841?mt=8
+
+or 
+
+https://www.microsoft.com/en-us/store/apps/intel-app-preview/9wzdncrdxtck
 
 ## Lab Goals
 
