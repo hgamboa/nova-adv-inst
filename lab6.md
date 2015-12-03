@@ -85,7 +85,7 @@ Learn the following functions:
 
 Learn the following functions:
 ```
-    >>> file.open('data_analog.txt', 'w')
+    >>> file = open('data_analog.txt', 'w')
     >>> file.write()
     >>> file.close()
  ```
