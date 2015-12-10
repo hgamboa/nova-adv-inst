@@ -48,6 +48,16 @@ http://www.flotcharts.org/flot/examples/realtime/
 
 https://github.com/bokeh/bokeh/blob/fe3ce529256f3f3a8ac92aa10acc42d39f91c33d/examples/embed/publishing.py
 
+## Goal 5 - Communicate with Raspberry
+
+Setup a socket server in python:
+
+https://wiki.python.org/moin/TcpCommunication
+
+Access the socket on XDK:
+
+https://github.com/blocshop/sockets-for-cordova
+
 
 
 
