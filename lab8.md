@@ -58,6 +58,12 @@ Access the socket on XDK:
 
 https://github.com/blocshop/sockets-for-cordova
 
+Or read a file from Raspberry: 
+
+Setup a simple server: 
+
+https://docs.python.org/2/library/simplehttpserver.html
+
 
 
 
