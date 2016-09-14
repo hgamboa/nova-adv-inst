@@ -1,4 +1,4 @@
-# Lab 3 - Seting up a vizualization server
+# Lab 4 - Seting up a vizualization server
 
 
 ## Pre Lab requirments
