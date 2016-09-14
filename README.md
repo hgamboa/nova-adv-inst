@@ -9,9 +9,9 @@ Lab Lessons
 
 ## [Lab 3 - Creating a virtual machine](lab3-virtualization.md)
 
-## [Lab 3 - Seting up a vizualization server](lab4-vizserver.md)
+## [Lab 3 - Seting up a visualization server](lab4-vis-server.md)
 
-## [Lab 4 - Visualization](lab5-viz.md)
+## [Lab 4 - Visualization](lab5-vis.md)
 
 ## [Lab 7 - Logging data and realtime plotting](lab7.md)
 
