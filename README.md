@@ -3,21 +3,26 @@
 
 Lab Lessons
 
-## [Lab 1 - Setting up Arduino](lab1.md)
+## 1[Lab 1 - Connecting to Raspberry pi ](lab1-rpi.md)
 
-## [Lab 2 - Creating a virtual machine](lab2.md)
+## 2[Lab 2 - Setting up and Controling Arduino from Raspberry](lab2-arduino.md)
 
-## [Lab 3 - Seting up a vizualization server](lab3.md)
+## 3[Lab 3 - Creating a virtual machine](lab3-virtualization.md)
 
-## [Lab 4 - Visualization](lab4.md)
+## 4[Lab 3 - Seting up a vizualization server](lab4-vizserver.md)
 
-## [Lab 5 - Connecting to Raspberry pi ](lab5.md)
+## 5[Lab 4 - Visualization](lab5-viz.md)
 
-## [Lab 6 - Controling Arduino from Raspberry](lab6.md)
+## 6[Lab 7 - Logging data and realtime plotting](lab7.md)
 
-## [Lab 7 - Logging data and realtime plotting](lab7.md)
+## 7[Lab 8 - Mobile instrumentation](lab8.md)
 
-## [Lab 8 - Mobile instrumentation](lab8.md)
+## 8[Lab 8 - Classify with Sklearn]
+
+## [Lab 9 - Regress with Sklearn]
+
+## [Lab 10 - Cluster with Sklearn]
+
 
 
 
