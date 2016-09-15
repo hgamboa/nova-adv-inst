@@ -52,13 +52,13 @@ Launch an ipython shell with
 
 `
 ipython --pylab
-``
+`
 
 Do a simple plot : 
 
 `
 plot(randn(100))
-``
+`
 
 save a pdf and downlod to the local computer:  
 
