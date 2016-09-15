@@ -48,16 +48,6 @@ vncserver
 
 The password is: raspberry
 
-## Goal 4 - Jupyter notebook
-
-Launch the preconfigured jupyter notebook
-
-'
-sudo jupyter notebook --config=.jupyter/jupyter_notebook_config.py
-'
-
-The passoword is: raspberry
-
 ## Going deeper 
 * Config guide of the memory card [Raspberry pi Setup](raspberry_pi_setup.md)
 
