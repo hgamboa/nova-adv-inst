@@ -13,7 +13,7 @@
 
 ## Lab Goals
 
-## Goal 1 - Connect to vis ssh to the raspberry
+## Goal 1 - Connect to the raspberry pi via ssh to the raspberry
 
 * Find the mac address of the wifi pen to copute the local ip address.
 ** ex: 74Da38546692
