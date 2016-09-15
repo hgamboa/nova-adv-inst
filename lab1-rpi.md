@@ -48,6 +48,23 @@ vncserver
 
 The password is: raspberry
 
+Launch an ipython shell with 
+
+'
+ipython --pylab
+'
+Do a simple plot : 
+
+'
+plot(randn(100))
+'
+save a pdf and downlod to the local computer:  
+
+'
+savefig('plot.pdf')
+'
+
+
 ## Going deeper 
 * Config guide of the memory card [Raspberry pi Setup](raspberry_pi_setup.md)
 
