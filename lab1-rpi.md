@@ -24,9 +24,9 @@
 
 * Connext via ssh to the raspberry pi
 
-'
+`
 ssh pi@192.168.0.XXX 
-'
+`
 
 (XXX substitute with the computed local ip)
 
@@ -38,9 +38,9 @@ ssh pi@192.168.0.XXX
 
 * Launch the vnc server
 
-'
+`
 vncserver
-'
+`
 
 * Then use the tightvnc client in your computer and insert the address
 
@@ -50,19 +50,21 @@ The password is: raspberry
 
 Launch an ipython shell with 
 
-'
+`
 ipython --pylab
-'
+``
+
 Do a simple plot : 
 
-'
+`
 plot(randn(100))
-'
+``
+
 save a pdf and downlod to the local computer:  
 
-'
+`
 savefig('plot.pdf')
-'
+`
 
 
 ## Going deeper 
