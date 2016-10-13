@@ -14,7 +14,6 @@
 
 * Follow the insrtuctions: http://jupyter-notebook.readthedocs.io/en/latest/public_server.html
 
-
 * copy next file to ~/.jupyter/jupyter_notebook_config.py
 
 `
