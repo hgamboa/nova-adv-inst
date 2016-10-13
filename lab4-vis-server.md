@@ -16,7 +16,7 @@
 
 * copy next file to ~/.jupyter/jupyter_notebook_config.py
 
-`
+```
 # Configuration file for jupyter notebook.
 c = get_config()
 c.NotebookApp.ip = '*'
@@ -24,7 +24,7 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.password = u'sha1:ceaf7b8b148f:92bcc3411cf43275a324e8a8b6755601b5419610'
 c.NotebookApp.port = 80
 c.IPKernelApp.pylab = 'inline'
-`
+```
 
 ## Goal 2 - Launch the bokeh-server
 
