@@ -26,6 +26,15 @@ c.NotebookApp.port = 80
 c.IPKernelApp.pylab = 'inline'
 ```
 
+* Start the notebook server in the shell of raspberry pi
+
+```
+sudo jupyter notebook
+```
+
+Then open a browser in your computer and write the IP address of your raspberry pi.
+
+
 ## Goal 2 - Launch the bokeh-server
 
 Perform some examples using Bokeh plotiing commands.
