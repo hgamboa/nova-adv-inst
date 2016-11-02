@@ -42,13 +42,7 @@ http://www.flotcharts.org/flot/examples/realtime/
 
 * Find the location where new data is added and substitute for data from the accelerometer.
 
-
-## Goal 4 - Observe a bokeh plot from raspberry pi 
-
-
-https://github.com/bokeh/bokeh/blob/fe3ce529256f3f3a8ac92aa10acc42d39f91c33d/examples/embed/publishing.py
-
-## Goal 5 - Communicate with Raspberry
+## Goal 4 - Communicate with Raspberry
 
 Setup a socket server in python:
 
