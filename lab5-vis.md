@@ -1,4 +1,4 @@
-# Lab 4 - Visualization
+# Lab 5 - Visualization
 
 
 ## Pre Lab requirments
@@ -8,17 +8,12 @@
 
 
 ## Starting steps
-* Launch bokeh-server
+
 * Test simple graph on ipython notebook
 
 ## Lab Goals
 
 ## Goal 1 - Transfer function of a low pass
-
-## Goal 4 - setup ipython notebook server
-
- * Follow the guidelines: https://ipython.org/ipython-doc/1/interactive/public_server.html
-
 
 * Plot the DB of the transfer function of the gain in a frequency log scale.
 ** |H| = 1/sqrt(1 + (f/f_c)^2)
