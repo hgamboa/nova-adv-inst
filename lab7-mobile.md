@@ -1,4 +1,4 @@
-# Lab 8 - Mobile Instrumentation 
+# Lab 7 - Mobile Instrumentation 
 
 ## Pre Lab requirments
 
