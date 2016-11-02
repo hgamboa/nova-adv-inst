@@ -9,13 +9,13 @@ Lab Lessons
 
 ## [Lab 3 - Creating a virtual machine](lab3-virtualization.md)
 
-## [Lab 3 - Seting up a visualization server](lab4-vis-server.md)
+## [Lab 4 - Seting up a visualization server](lab4-vis-server.md)
 
-## [Lab 4 - Visualization](lab5-vis.md)
+## [Lab 5 - Visualization](lab5-vis.md)
 
-## [Lab 7 - Logging data and realtime plotting](lab7.md)
+## [Lab 6 - Logging data and realtime plotting](lab6-log.md)
 
-## [Lab 8 - Mobile instrumentation](lab8.md)
+## [Lab 7 - Mobile instrumentation](lab7-mobile.md)
 
 ## [Lab 8 - Classify with Sklearn]
 
