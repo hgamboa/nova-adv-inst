@@ -1,12 +1,12 @@
-#Lab 0 Installing python
+# Lab 0 Installing python
 
-Download python from 
 
-Install novainstrumentation (follow instruction https://github.com/hgamboa/novainstrumentation)
 
-Create a github account
+* Install python and novainstrumentation (follow instruction https://github.com/hgamboa/novainstrumentation)
 
-Register on CodeWars (https://www.codewars.com/) with your github account
+* Create a github account
 
-Collect 100 points. Bring evidence to the fisrt test to complete the coding part of the test (2 values)
+* Register on CodeWars (https://www.codewars.com/) with your github account
+
+* Collect 100 points. Bring evidence to the fisrt test to complete the coding part of the test (2 values)
 
