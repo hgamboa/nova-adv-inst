@@ -3,6 +3,8 @@
 
 Lab Lessons
 
+## [Lab 0 - Python intro](lab0-python.md)
+
 ## [Lab 1 - Connecting to Raspberry pi ](lab1-rpi.md)
 
 ## [Lab 2 - Setting up and Controling Arduino from Raspberry](lab2-arduino.md)
