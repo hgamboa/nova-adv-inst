@@ -3,7 +3,7 @@
 
 ## Pre Lab requirments
 
-* Install bitwise
+* Install bitvise
 * Install tightvnc viewer
 
 ## Starting steps
