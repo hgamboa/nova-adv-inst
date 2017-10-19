@@ -4,7 +4,7 @@
 ## Pre Lab requirments
 
 * Install bitwise
-* Install tigntvnc viewer
+* Install tightvnc viewer
 
 ## Starting steps
 * Connect your laptop to the local lab network 
