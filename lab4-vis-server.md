@@ -37,7 +37,7 @@ Then open a browser in your computer and write the IP address of your raspberry 
 
 ## Goal 2 - Launch the bokeh-server
 
-Perform some examples using Bokeh plotiing commands.
+Perform some examples using Bokeh ploting commands.
 
 
 ## Going deeper 
