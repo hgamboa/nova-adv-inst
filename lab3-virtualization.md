@@ -51,5 +51,6 @@
 * Check the shell tutotial http://www.ee.surrey.ac.uk/Teaching/Unix/
 * Vi list of commands: http://www.lagmonster.org/docs/vi2.html
 * The Linux Command Line Book: http://linuxcommand.org/tlcl.php
+* Using amazon cloud computing infrastructure - AWS: https://github.com/hgamboa/novaelphy/blob/master/CloudComputing/Cloud%20Computing.ipynb
 
 
