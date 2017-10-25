@@ -3,8 +3,8 @@
 
 ## Pre Lab requirments
 
-* Install bitvise
-* Install tightvnc viewer
+* Install **bitvise** (macos:command line **ssh** plus **cyberduck**)
+* Install **tightvnc** viewer (macos: **chicken of the VNC**) 
 
 ## Starting steps
 * Connect your laptop to the local lab network 
