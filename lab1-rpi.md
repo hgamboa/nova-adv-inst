@@ -36,7 +36,7 @@ ssh pi@192.168.0.XXX
 
 ## Goal 3 - Remote connect
 
-* Launch the vnc server
+* Launch the vnc server (execute the following command in the shell)
 
 `
 vncserver
