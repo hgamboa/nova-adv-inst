@@ -41,5 +41,6 @@ Perform some examples using Bokeh ploting commands.
 
 
 ## Going deeper 
-* See the workshop from Cristine Doig: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
+* See the 5 minute intro to bokeh: http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/quickstart/quickstart.ipynb
+* See more advanced examples on the workshop from Cristine Doig: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
 * The examples are in: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
