@@ -1,5 +1,7 @@
 Bitalino python lab guide
 
+[Evaluation guidelines](evaluation.md)
+
 * [0 Setting up](#settingup)
 * [1 Acquisition](#acq)
 
@@ -7,7 +9,7 @@ Bitalino python lab guide
 
 # List goals
 
-## <a name="settingup"></a> 0 Setting up
+##  0 Setting up <a name="settingup"></a>
 - Indicar anaconda - opensingals - serverBit
 
 - how to edit code - spyder
@@ -17,15 +19,36 @@ Bitalino python lab guide
 
 INCLUDE IMAGE from slides 
 
+CREATE Map of the channels (analog and digital)
 
-## <a name="acq"></a> 1 Acquisition
+## 1 Acquisition <a name="acq"></a>
 
-Open open signals
+Open opensignals
 
 Test all sensors 
 
-## 
+Record a signal 
 
+## 2 Open a signal in python
+
+SLIDE 4
+
+Use the file (LINK) LoadFile.p
+´´´
+plot(data[:,5])
+´´´
+
+## 3 Measure with bitalino (assynchronous)
+
+lightsBIT.py
+ButtonBit.py
+## 4 
+
+
+## 20 External link
+Bitalino Forum
+Bitalino API documentation 
+...
 
 ## PENDING TASKS
 
