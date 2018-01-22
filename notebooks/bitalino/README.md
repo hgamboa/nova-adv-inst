@@ -10,10 +10,23 @@ Bitalino python lab guide
 # List goals
 
 ##  0 Setting up <a name="settingup"></a>
-- Indicar anaconda - opensingals - serverBit
+- Install the Anaconda Python distribution that best suits your platform:  
+ https://www.anaconda.com/download/
 
-- how to edit code - spyder
-- how execute code - console ipyhton
+- Install BITalino's serverBIT (r)evolution:    
+https://github.com/BITalinoWorld/revolution-python-serverbit
+
+- Install openSignals (r)evolution Software:  
+http://bitalino.com/en/software
+
+- Get a good code editor:  
+https://pythonhosted.org/spyder/installation.html
+https://www.jetbrains.com/pycharm/
+http://www.pydev.org/
+
+- Enjoy executing some code:  
+https://ipython.org/install.html
+
 
 - Architecture of **bitalino** 
 
