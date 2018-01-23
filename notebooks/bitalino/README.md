@@ -20,15 +20,16 @@ https://github.com/BITalinoWorld/revolution-python-serverbit
 http://bitalino.com/en/software
 
 - Get a good code editor:  
-https://pythonhosted.org/spyder/installation.html
-https://www.jetbrains.com/pycharm/
-http://www.pydev.org/
+https://pythonhosted.org/spyder/installation.html  
+https://www.jetbrains.com/pycharm/  
+http://www.pydev.org/  
 
 - Enjoy executing some code:  
 https://ipython.org/install.html
 
 
 - Architecture of **bitalino** 
+ [BITalino datasheet](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
 
 INCLUDE IMAGE from slides 
 
