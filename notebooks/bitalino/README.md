@@ -4,7 +4,12 @@ Bitalino python lab guide
 
 * [0 Setting up](#settingup)
 * [1 Acquisition](#acq)
-
+* [2 Open a signal in python](#opensignal)
+* [3 Process a signal](#process)
+* [4 Measure and actuate with BITalino](#measure)
+* [5 Online processing of signals](#online)
+* [6 Template of project](#template)
+* [7 Webbrowser](#browser)
 
 
 # List goals
@@ -50,36 +55,40 @@ How to light
 
 Record a signal 
 
-## 2 Open a signal in python
+## 2 Open a signal in python <a name="opensignal"></a>
 
 SLIDE 4
+Proceed to opening a signal data file sample [SampleEMG.txt](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
+You can use python script [LoadFile.py](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
+```
+# -*- coding: utf-8 -*-
+from pylab import *
 
-Use the file (LINK) LoadFile.p
-´´´
+data = loadtxt("SampleEMG.txt")
+
 plot(data[:,5])
-´´´
+show()
+```
+## 3 Process a signal <a name="process"></a>
 
-## 3 Process a signal
-
-## 4 Measure and actuate with bitalino (assynchronous)
+## 4 Measure and actuate with BITalino (assynchronous) <a name="measure"></a>
 
 lightsBIT.py
 ButtonBit.py 
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LOFUTNEgrv4/0.jpg)](https://www.youtube.com/watch?v=LOFUTNEgrv4)
 
-## 4 Online processing of signals
+## 5 Online processing of signals <a name="online"></a>
 MuscleBIT.py 
 
-## 5 Template of project
+## 6 Template of project <a name="template"></a>
 
 templateproject.py
 
-
-## 6 webbrowser
+## 7 Webbrowser <a name="browser"></a>
 Demo of serverbit + webrowser
 
-## 7 External link
+## 8 External link <a name="external"></a>
 Bitalino Forum
 Bitalino API documentation 
 ...
@@ -87,3 +96,21 @@ Bitalino API documentation
 ## PENDING TASKS
 
 Confirm that bitalino has api to python 3.X
+Steps to follow for successful 3.5 connection:
+
+1. Install Anaconda3-4.2.0 (most recent with Python 3.5) according to your system 
+https://repo.continuum.io/archive/
+2. Install dependencies
+pip install pyserial
+
+3. Download and install old PyBluez (3.5) package wheel for the user platform (e.g. WinX64), not available from PyBluez pypi resources
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pybluez
+PyBluez‑0.22‑cp35‑none‑win_amd64.whl
+pip install PyBluez-0.22-cp35-none-win_amd64.whl
+
+4. Create a folder called  revolution-python-api
+5. Download af12066 BITalino patch .zip and extract py files into the created folder called revolution-python-api (git clone link is broken)
+$ git clone git@github.com:af12066/revolution-python-api.git (broken)
+https://github.com/BITalinoWorld/revolution-python-api/archive/master.zip
+
+6. Test bitalino.py (e.g. with a jupyter notebook test file)
