@@ -101,12 +101,16 @@ Steps to follow for successful 3.5 connection:
 1. Install Anaconda3-4.2.0 (most recent with Python 3.5) according to your system 
 https://repo.continuum.io/archive/
 2. Install dependencies
+```
 pip install pyserial
+```
 
 3. Download and install old PyBluez (3.5) package wheel for the user platform (e.g. WinX64), not available from PyBluez pypi resources
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#pybluez
 PyBluez‑0.22‑cp35‑none‑win_amd64.whl
+```
 pip install PyBluez-0.22-cp35-none-win_amd64.whl
+```
 
 4. Create a folder called  revolution-python-api
 5. Download af12066 BITalino patch .zip and extract py files into the created folder called revolution-python-api (git clone link is broken)
