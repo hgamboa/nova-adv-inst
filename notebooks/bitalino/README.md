@@ -42,16 +42,26 @@ CREATE Map of the channels (analog and digital)
 
 ## 1 Acquisition <a name="acq"></a>
 
-Open opensignals
+Once your BITalino is turned on, make sure the device is paired by the Bluetooth connection that you will use to receive the data.  You will match your device given the MAC address that is written in the back label. Default PIN is 1234.
 
-Test all sensors 
+Open OpenSignals and proceed to configure your acquisition (sensors, channels, type of data, sampling rate). 
 
-How to EMG
-How to ACC
-Hwo to EDA
-How to ECG
-How to EEG
-How to light
+Test sensor acquisition. It is important that you check sensor Datasheets to find out about the correct electrode placement, specs and formulas used for transfer functions.  
+
+[How to acquire EMG](http://bitalino.com/datasheets/REVOLUTION_EMG_Sensor_Datasheet.pdf) 
+
+[How to acquire EDA](http://bitalino.com/datasheets/REVOLUTION_EDA_Sensor_Datasheet.pdf) 
+
+[How to acquire ECG](http://bitalino.com/datasheets/REVOLUTION_ECG_Sensor_Datasheet.pdf) 
+
+[How to acquire EEG](http://bitalino.com/datasheets/EEG_Sensor_Datasheet.pdf) 
+
+[How to acquire ACC](http://bitalino.com/datasheets/REVOLUTION_ACC_Sensor_Datasheet.pdf) 
+
+[How to acquire LUX](http://bitalino.com/datasheets/LUX_Sensor_Datasheet.pdf) 
+
+[How to acquire BTN](http://bitalino.com/datasheets/BTN_Sensor_Datasheet.pdf) 
+
 
 Record a signal 
 
