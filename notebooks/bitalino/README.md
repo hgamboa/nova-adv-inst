@@ -44,26 +44,29 @@ CREATE Map of the channels (analog and digital)
 
 Once your BITalino is turned on, make sure the device is paired by the Bluetooth connection that you will use to receive the data.  You will match your device given the MAC address that is written in the back label. Default PIN is 1234.
 
-Open OpenSignals and proceed to configure your acquisition (sensors, channels, type of data, sampling rate). 
+- Open OpenSignals and proceed to configure your acquisition (sensors, channels, type of data, sampling rate). 
 
-Test sensor acquisition. It is important that you check sensor Datasheets to find out about the correct electrode placement, specs and formulas used for transfer functions.  
+- Test sensor acquisition. It is important that you check sensor Datasheets to find out about the correct electrode placement, specs and formulas used for transfer functions:
+    1. [How to acquire EMG](http://bitalino.com/datasheets/REVOLUTION_EMG_Sensor_Datasheet.pdf) 
 
-[How to acquire EMG](http://bitalino.com/datasheets/REVOLUTION_EMG_Sensor_Datasheet.pdf) 
-
-[How to acquire EDA](http://bitalino.com/datasheets/REVOLUTION_EDA_Sensor_Datasheet.pdf) 
-
-[How to acquire ECG](http://bitalino.com/datasheets/REVOLUTION_ECG_Sensor_Datasheet.pdf) 
-
-[How to acquire EEG](http://bitalino.com/datasheets/EEG_Sensor_Datasheet.pdf) 
-
-[How to acquire ACC](http://bitalino.com/datasheets/REVOLUTION_ACC_Sensor_Datasheet.pdf) 
-
-[How to acquire LUX](http://bitalino.com/datasheets/LUX_Sensor_Datasheet.pdf) 
-
-[How to acquire BTN](http://bitalino.com/datasheets/BTN_Sensor_Datasheet.pdf) 
+    2. [How to acquire EDA](http://bitalino.com/datasheets/REVOLUTION_EDA_Sensor_Datasheet.pdf) 
 
 
-Record a signal 
+    3. [How to acquire ECG](http://bitalino.com/datasheets/REVOLUTION_ECG_Sensor_Datasheet.pdf) 
+
+
+    4. [How to acquire EEG](http://bitalino.com/datasheets/EEG_Sensor_Datasheet.pdf) 
+
+
+    5. [How to acquire ACC](http://bitalino.com/datasheets/REVOLUTION_ACC_Sensor_Datasheet.pdf) 
+
+
+    6. [How to acquire LUX](http://bitalino.com/datasheets/LUX_Sensor_Datasheet.pdf) 
+
+
+    7. [How to acquire BTN](http://bitalino.com/datasheets/BTN_Sensor_Datasheet.pdf) 
+
+- Record a signal 
 
 ## 2 Open a signal in python <a name="opensignal"></a>
 
