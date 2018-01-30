@@ -38,7 +38,7 @@ Launch a jupyter notebook
 
 INCLUDE IMAGE from slides 
 
-![IMAGE ALT TEXT](images/BITalino.jpg)
+![IMAGE ALT TEXT](images/BITalino_cut.jpg)
 
 CREATE Map of the channels (analog and digital)
 
