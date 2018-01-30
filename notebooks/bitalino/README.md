@@ -14,7 +14,7 @@ Bitalino python lab guide
 
 
 # List goals
-
+![bar](images/bitalinobar.jpg)
 ##  0 Setting up <a name="settingup"></a>
 - Install the Anaconda Python distribution that best suits your platform:  
  https://www.anaconda.com/download/
@@ -26,15 +26,17 @@ https://github.com/BITalinoWorld/revolution-python-serverbit
 http://bitalino.com/en/software
 
 - Get a good code editor:  
--- **Spyder** is already included with Anaconda *or*
--- **Pycharm** https://www.jetbrains.com/pycharm/  
+
+**Spyder** is already included with Anaconda *or*
+
+**Pycharm** https://www.jetbrains.com/pycharm/  
 
 - Enjoy executing some code:  
 Launch a jupyter notebook
 
 
 - Architecture of **bitalino** 
- [BITalino datasheet](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
+[BITalino datasheet](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
 
 ![IMAGE ALT TEXT](images/BITalino_cut.jpg)
 
@@ -67,7 +69,7 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
 
 - Record a signal 
 ![IMAGE ALT TEXT](images/opensig.jpg)
-
+![bar](images/bitalinobar.jpg)
 ## 2 Open a signal in python <a name="opensignal"></a>
 
 Proceed to opening a signal data file sample [SampleEMG.txt](SampleEMG.txt).
@@ -88,7 +90,7 @@ show()
 
 
 Use this code in spyder or in a Jupyter notebook
-
+![bar](images/bitalinobar.jpg)
 ## 3 Process a signal <a name="process"></a>
 
 Based on the previous code process the EMG signal to compute the envelope of the EMG
@@ -118,18 +120,17 @@ show()
 
 
 
-
+![bar](images/bitalinobar.jpg)
 ## 4 Measure and actuate with BITalino (asynchronous) <a name="measure"></a>
 
 [LightsBIT.py](LightsBIT.py)
 [ButtonBIT.py](ButtonBIT.py)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LOFUTNEgrv4/0.jpg)](https://www.youtube.com/watch?v=LOFUTNEgrv4)
-
+![bar](images/bitalinobar.jpg)
 ## 5 Online processing of signals <a name="online"></a>
 MuscleBIT.py 
 ```
-# -*- coding: utf-8 -*-
 import bitalino
 
 import numpy
@@ -174,7 +175,7 @@ finally:
 ```
 
 
-
+![bar](images/bitalinobar.jpg)
 ## 6 Live on the Webbrowser <a name="browser"></a>
 Demo of serverbit + webrowser
 
@@ -186,11 +187,13 @@ Once installed, run BITalino ServerBIT and open your ClientBIT.html. MAC address
 Open ClienBIT.html with Google Chrome and watch your signals in real time. Graphics are processed by FLOT. Feel free to source the web and inspect the codes to get the best data presentation features.
 http://www.flotcharts.org/flot/examples/basic-options/index.html
 
+![bar](images/bitalinobar.jpg)
 ## 8 External link <a name="external"></a>
 Bitalino Forum
+
 Bitalino API documentation 
 ...
-
+![bar](images/bitalinobar.jpg)
 ## Installation Notes 
 
 
