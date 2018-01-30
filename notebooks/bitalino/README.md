@@ -151,6 +151,7 @@ BITalino revolution ServerBIT is a utility that helps you stream your signals in
 https://github.com/BITalinoWorld/revolution-python-serverbit
 
 Once installed, run BITalino ServerBIT and open your ClientBIT.html. MAC address and channels can be configured through the config.json that is created under your home user folder. 
+
 Open ClienBIT.html with Google Chrome and watch your signals in real time. Graphics are processed by FLOT. Feel free to source the web and inspect the codes to get the best data presentation features.
 http://www.flotcharts.org/flot/examples/basic-options/index.html
 
