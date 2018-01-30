@@ -25,12 +25,11 @@ https://github.com/BITalinoWorld/revolution-python-serverbit
 http://bitalino.com/en/software
 
 - Get a good code editor:  
-https://pythonhosted.org/spyder/installation.html  
+Spyder is already included with Anaconda
 https://www.jetbrains.com/pycharm/  
-http://www.pydev.org/  
 
 - Enjoy executing some code:  
-https://ipython.org/install.html
+Launch a jupyter notebook
 
 
 - Architecture of **bitalino** 
@@ -70,8 +69,8 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
 
 ## 2 Open a signal in python <a name="opensignal"></a>
 
-SLIDE 4
 Proceed to opening a signal data file sample [SampleEMG.txt](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
+
 You can use python script [LoadFile.py](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf):
 ```
 # -*- coding: utf-8 -*-
@@ -86,7 +85,7 @@ show()
 
 
 
-## 4 Measure and actuate with BITalino (assynchronous) <a name="measure"></a>
+## 4 Measure and actuate with BITalino (asynchronous) <a name="measure"></a>
 
 lightsBIT.py
 ButtonBit.py 
