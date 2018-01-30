@@ -74,15 +74,48 @@ Proceed to opening a signal data file sample [SampleEMG.txt](SampleEMG.txt).
 
 You can use python script [LoadFile.py](LoadFile.py):
 ```
-# -*- coding: utf-8 -*-
+
 from pylab import *
 
 data = loadtxt("SampleEMG.txt")
 
 plot(data[:,5])
 show()
+
 ```
+
+
+
+
+Use this code in spyder or in a Jupyter notebook
+
 ## 3 Process a signal <a name="process"></a>
+
+Based on the previous code process the EMG signal to compute the envelope of the EMG
+
+You can use python script [ProcessFile.py](ProcessFile.py):
+```
+from pylab import *
+from numpy import *
+from scipy import signal
+
+def lowpass(s, f, order=2, fs=1000.0):
+    b, a = signal.butter(order, f / (fs/2))
+    return signal.lfilter(b, a, s)
+
+data = loadtxt("SampleEMG.txt")[:,5]
+
+abs_data = abs(data)
+
+proc_data = lowpass(abs_data, 10) #Filter with a lowpass filter at 10Hz
+
+plot(data)
+
+plot(proc_data)
+
+show()
+```
+
 
 
 
@@ -140,11 +173,9 @@ finally:
     device.close()
 ```
 
-## 6 Template of project <a name="template"></a>
 
-templateproject.py
 
-## 7 Webbrowser <a name="browser"></a>
+## 6 Live on the Webbrowser <a name="browser"></a>
 Demo of serverbit + webrowser
 
 BITalino revolution ServerBIT is a utility that helps you stream your signals in real time on a webbrowser (ClientBIT.html)
@@ -160,14 +191,14 @@ Bitalino Forum
 Bitalino API documentation 
 ...
 
-## PENDING TASKS
-BITalino pip install --> hsilva
+## Installation Notes 
 
-Confirm that bitalino has api to python 3.X
-Steps to follow for successful 3.5 connection:
+
+### On Windows (for Python 3)
 
 1. Install Anaconda3-4.2.0 (most recent with Python 3.5) according to your system 
 https://repo.continuum.io/archive/
+
 2. Install dependencies
 ```
 pip install pyserial
@@ -181,8 +212,56 @@ pip install PyBluez-0.22-cp35-none-win_amd64.whl
 ```
 
 4. Create a folder called  revolution-python-api
-5. Download af12066 BITalino patch .zip and extract py files into the created folder called revolution-python-api (git clone link is broken)
-$ git clone git@github.com:af12066/revolution-python-api.git (broken)
+
+5. Download af12066 BITalino patch .zip and extract py files into the created folder called revolution-python-api
+
 https://github.com/BITalinoWorld/revolution-python-api/archive/master.zip
 
-6. Test bitalino.py (e.g. with a jupyter notebook test file)
+6. Test bitalino.py (e.g. with a jupyter notebook test file) 
+
+Should see data collected by bitalino printed on the console
+
+### On Windows (for Python 2)
+
+1. Install Anaconda 2.7 version 
+https://repo.continuum.io/archive/
+
+2. Install dependencies
+```
+pip install pyserial
+pip install pybluez
+```
+3. Install bitalino API
+
+```
+pip install bitalino
+```
+
+4. Test LightsBIT.py (e.g. with a jupyter notebook test file) 
+
+Should see the led turning on or off
+
+
+
+
+
+### On Macos
+
+1. Install Anaconda2.7 
+https://repo.continuum.io/archive/
+
+2. Install pyserial dependency
+```
+conda install -c conda-forge pyserial
+```
+3. Install bitalino API
+
+```
+pip install bitalino
+```
+
+4. Test LightsBIT.py (e.g. with a jupyter notebook test file) 
+
+Should see the led turning on or off
+
+
