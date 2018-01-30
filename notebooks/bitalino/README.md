@@ -72,9 +72,9 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
 
 ## 2 Open a signal in python <a name="opensignal"></a>
 
-Proceed to opening a signal data file sample [SampleEMG.txt](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
+Proceed to opening a signal data file sample [SampleEMG.txt](SampleEMG.txt).
 
-You can use python script [LoadFile.py](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf):
+You can use python script [LoadFile.py](LoadFile.py):
 ```
 # -*- coding: utf-8 -*-
 from pylab import *
@@ -90,8 +90,8 @@ show()
 
 ## 4 Measure and actuate with BITalino (asynchronous) <a name="measure"></a>
 
-lightsBIT.py
-ButtonBit.py 
+[LightsBIT.py](LightsBIT.py)
+[ButtonBIT.py](ButtonBIT.py)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/LOFUTNEgrv4/0.jpg)](https://www.youtube.com/watch?v=LOFUTNEgrv4)
 
