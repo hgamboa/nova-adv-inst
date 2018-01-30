@@ -72,7 +72,7 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
 
 SLIDE 4
 Proceed to opening a signal data file sample [SampleEMG.txt](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
-You can use python script [LoadFile.py](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
+You can use python script [LoadFile.py](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf):
 ```
 # -*- coding: utf-8 -*-
 from pylab import *
@@ -84,6 +84,8 @@ show()
 ```
 ## 3 Process a signal <a name="process"></a>
 
+
+
 ## 4 Measure and actuate with BITalino (assynchronous) <a name="measure"></a>
 
 lightsBIT.py
@@ -93,6 +95,50 @@ ButtonBit.py
 
 ## 5 Online processing of signals <a name="online"></a>
 MuscleBIT.py 
+```
+# -*- coding: utf-8 -*-
+import bitalino
+
+import numpy
+import time
+
+# Mac OS
+macAddress = "/dev/tty.BITalino-01-93-DevB"
+
+# Windows
+# macAddress = "XX:XX:XX:XX:XX:XX"
+   
+device = bitalino.BITalino(macAddress)
+time.sleep(1)
+
+srate = 1000
+nframes = 100
+threshold = 5
+
+device.start(srate, [0])
+print "START"
+
+try:
+    while True:
+
+        data = device.read(nframes)
+        
+        if numpy.mean(data[:, 1]) < 1: break
+
+        EMG = data[:, -1]
+        
+        envelope = numpy.mean(abs(numpy.diff(EMG)))
+
+        if envelope > threshold:
+            device.trigger([0, 1])
+        else:
+            device.trigger([0, 0])
+
+finally:
+    print "STOP"
+    device.stop()
+    device.close()
+```
 
 ## 6 Template of project <a name="template"></a>
 
@@ -101,12 +147,20 @@ templateproject.py
 ## 7 Webbrowser <a name="browser"></a>
 Demo of serverbit + webrowser
 
+BITalino revolution ServerBIT is a utility that helps you stream your signals in real time on a webbrowser (ClientBIT.html)
+https://github.com/BITalinoWorld/revolution-python-serverbit
+
+Once installed, run BITalino ServerBIT and open your ClientBIT.html. MAC address and channels can be configured through the config.json that is created under your home user folder. 
+Open ClienBIT.html with Google Chrome and watch your signals in real time. Graphics are processed by FLOT. Feel free to source the web and inspect the codes to get the best data presentation features.
+http://www.flotcharts.org/flot/examples/basic-options/index.html
+
 ## 8 External link <a name="external"></a>
 Bitalino Forum
 Bitalino API documentation 
 ...
 
 ## PENDING TASKS
+BITalino pip install --> hsilva
 
 Confirm that bitalino has api to python 3.X
 Steps to follow for successful 3.5 connection:
