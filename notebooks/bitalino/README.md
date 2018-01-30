@@ -26,8 +26,11 @@ https://github.com/BITalinoWorld/revolution-python-serverbit
 http://bitalino.com/en/software
 
 - Get a good code editor:  
-Spyder is already included with Anaconda
-https://www.jetbrains.com/pycharm/  
+**Spyder** is already included with Anaconda
+
+or
+
+**Pycharm** https://www.jetbrains.com/pycharm/  
 
 - Enjoy executing some code:  
 Launch a jupyter notebook
