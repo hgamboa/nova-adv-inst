@@ -45,7 +45,7 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
 
 Default PIN is **1234**.
 
-- Open OpenSignals and proceed to configure your acquisition (sensors, channels, type of data, sampling rate). 
+- Open **OpenSignals** and proceed to configure your acquisition (sensors, channels, type of data, sampling rate). 
 
 - Test sensor acquisition. It is important that you check sensor Datasheets to find out about the correct electrode placement, specs and formulas used for transfer functions:
     1. [How to acquire EMG](http://bitalino.com/datasheets/REVOLUTION_EMG_Sensor_Datasheet.pdf) 
@@ -77,24 +77,19 @@ Proceed to opening a signal data file sample [SampleEMG.txt](SampleEMG.txt).
 
 You can use python script [LoadFile.py](LoadFile.py):
 ```
-
 from pylab import *
 
 data = loadtxt("SampleEMG.txt")
 
 plot(data[:,5])
 show()
-
 ```
-
-
-
 
 Use this code in spyder or in a Jupyter notebook
 ![bar](images/bitalinobar.jpg)
 ## 3 Process a signal <a name="process"></a>
 
-Based on the previous code process the EMG signal to compute the envelope of the EMG
+Based on the previous code process the EMG signal to compute the envelope of the EMG (smooth the abs of the signal after removing the mean)
 
 You can use python script [ProcessFile.py](ProcessFile.py):
 ```
@@ -108,7 +103,7 @@ def lowpass(s, f, order=2, fs=1000.0):
 
 data = loadtxt("SampleEMG.txt")[:,5]
 
-abs_data = abs(data)
+abs_data = abs(data-mean(data))
 
 proc_data = lowpass(abs_data, 10) #Filter with a lowpass filter at 10Hz
 
@@ -118,8 +113,6 @@ plot(proc_data)
 
 show()
 ```
-
-
 
 ![bar](images/bitalinobar.jpg)
 ## 4 Measure and actuate with BITalino (asynchronous) <a name="measure"></a>
@@ -183,9 +176,9 @@ Demo of serverbit + webrowser
 BITalino revolution ServerBIT is a utility that helps you stream your signals in real time on a webbrowser (ClientBIT.html)
 https://github.com/BITalinoWorld/revolution-python-serverbit
 
-Once installed, run BITalino ServerBIT and open your ClientBIT.html. MAC address and channels can be configured through the config.json that is created under your home user folder. 
+Once installed, run BITalino ServerBIT and open your ClientBIT.html. MAC address and channels can be configured through the **config.json** that is created under your home user folder. 
 
-Open ClienBIT.html with Google Chrome and watch your signals in real time. Graphics are processed by FLOT. Feel free to source the web and inspect the codes to get the best data presentation features.
+Open ClienBIT.html with a browser and watch your signals in real time. Graphics are processed by **FLOT**. Feel free to source the web and inspect the codes to get the best data presentation features.
 http://www.flotcharts.org/flot/examples/basic-options/index.html
 
 ![bar](images/bitalinobar.jpg)
