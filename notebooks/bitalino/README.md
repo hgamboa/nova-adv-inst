@@ -1,3 +1,4 @@
+![IMAGE ALT TEXT](https://github.com/hgamboa/nova-adv-inst/blob/master/notebooks/bitalino/bitalinoheader.jpg)
 Bitalino python lab guide
 
 [Project](lab-project.md)
