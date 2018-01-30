@@ -68,7 +68,7 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
     7. [How to acquire BTN](http://bitalino.com/datasheets/BTN_Sensor_Datasheet.pdf) 
 
 - Record a signal 
-![IMAGE ALT TEXT](https://github.com/hgamboa/nova-adv-inst/blob/master/notebooks/bitalino/opensig.jpg)
+![IMAGE ALT TEXT](images/opensig.jpg)
 
 ## 2 Open a signal in python <a name="opensignal"></a>
 
