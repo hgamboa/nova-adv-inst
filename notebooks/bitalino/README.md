@@ -40,7 +40,7 @@ INCLUDE IMAGE from slides
 
 CREATE Map of the channels (analog and digital)
 
-![IMAGE ALT TEXT](bitalinobat.jpg)
+![bar](bitalinobar.jpg)
 ## 1 Acquisition <a name="acq"></a>
 
 Once your BITalino is turned on, make sure the device is paired by the Bluetooth connection that you will use to receive the data.  You will match your device given the MAC address that is written in the back label. Default PIN is 1234.
