@@ -12,8 +12,6 @@ Bitalino python lab guide
 * [6 Template of project](#template)
 * [7 Webbrowser](#browser)
 
-
-# List goals
 ![bar](images/bitalinobar.jpg)
 ##  0 Setting up <a name="settingup"></a>
 - Install the Anaconda Python distribution that best suits your platform:  
@@ -27,9 +25,9 @@ http://bitalino.com/en/software
 
 - Get a good code editor:  
 
-**Spyder** is already included with Anaconda *or*
+ - **Spyder** is already included with Anaconda *or*
 
-**Pycharm** https://www.jetbrains.com/pycharm/  
+ - **Pycharm** https://www.jetbrains.com/pycharm/  
 
 - Enjoy executing some code:  
 Launch a jupyter notebook
@@ -43,7 +41,9 @@ Launch a jupyter notebook
 ![bar](images/bitalinobar.jpg)
 ## 1 Acquisition <a name="acq"></a>
 
-Once your BITalino is turned on, make sure the device is paired by the Bluetooth connection that you will use to receive the data.  You will match your device given the MAC address that is written in the back label. Default PIN is 1234.
+Once your BITalino is turned on, make sure the device is paired by the Bluetooth connection that you will use to receive the data.  You will match your device given the MAC address that is written in the back label. 
+
+Default PIN is **1234**.
 
 - Open OpenSignals and proceed to configure your acquisition (sensors, channels, type of data, sampling rate). 
 
@@ -67,7 +67,8 @@ Once your BITalino is turned on, make sure the device is paired by the Bluetooth
 
     7. [How to acquire BTN](http://bitalino.com/datasheets/BTN_Sensor_Datasheet.pdf) 
 
-- Record a signal 
+- **Record a signal**
+
 ![IMAGE ALT TEXT](images/opensig.jpg)
 ![bar](images/bitalinobar.jpg)
 ## 2 Open a signal in python <a name="opensignal"></a>
