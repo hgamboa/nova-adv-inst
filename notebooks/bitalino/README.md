@@ -1,4 +1,4 @@
-![IMAGE ALT TEXT](https://github.com/hgamboa/nova-adv-inst/blob/master/notebooks/bitalino/bitalinoheader.jpg)
+![Header](images/bitalinoheader.jpg)
 Bitalino python lab guide
 
 [Project](lab-project.md)
@@ -26,11 +26,8 @@ https://github.com/BITalinoWorld/revolution-python-serverbit
 http://bitalino.com/en/software
 
 - Get a good code editor:  
-**Spyder** is already included with Anaconda
-
-or
-
-**Pycharm** https://www.jetbrains.com/pycharm/  
+-- **Spyder** is already included with Anaconda *or*
+-- **Pycharm** https://www.jetbrains.com/pycharm/  
 
 - Enjoy executing some code:  
 Launch a jupyter notebook
@@ -43,7 +40,7 @@ INCLUDE IMAGE from slides
 
 CREATE Map of the channels (analog and digital)
 
-![bar](bitalinobar.jpg)
+![bar](images/bitalinobar.jpg)
 ## 1 Acquisition <a name="acq"></a>
 
 Once your BITalino is turned on, make sure the device is paired by the Bluetooth connection that you will use to receive the data.  You will match your device given the MAC address that is written in the back label. Default PIN is 1234.
