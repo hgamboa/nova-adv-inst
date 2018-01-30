@@ -229,15 +229,22 @@ https://repo.continuum.io/archive/
 2. Install dependencies
 ```
 pip install pyserial
-pip install pybluez
 ```
-3. Install bitalino API
+3. Download and install old PyBluez (2.7) package wheel for the user platform (e.g. WinX64), not available from PyBluez pypi resources
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pybluez
+PyBluez‑0.22‑cp27‑none‑win_amd64.whl
+```
+pip install PyBluez-0.22-cp27-none-win_amd64.whl
+```
+
+
+4. Install bitalino API
 
 ```
 pip install bitalino
 ```
 
-4. Test LightsBIT.py (e.g. with a jupyter notebook test file) 
+5. Test LightsBIT.py (e.g. with a jupyter notebook test file) 
 
 Should see the led turning on or off
 
