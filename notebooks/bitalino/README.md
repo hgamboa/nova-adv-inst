@@ -36,12 +36,7 @@ Launch a jupyter notebook
 - Architecture of **bitalino** 
  [BITalino datasheet](http://bitalino.com/datasheets/REVOLUTION_BITalino_Board_Kit_Datasheet.pdf).
 
-INCLUDE IMAGE from slides 
-
 ![IMAGE ALT TEXT](images/BITalino_cut.jpg)
-
-CREATE Map of the channels (analog and digital)
-
 
 ![bar](images/bitalinobar.jpg)
 ## 1 Acquisition <a name="acq"></a>
