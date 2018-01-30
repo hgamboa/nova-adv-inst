@@ -25,9 +25,9 @@ http://bitalino.com/en/software
 
 - Get a good code editor:  
 
- - **Spyder** is already included with Anaconda *or*
+    - **Spyder** is already included with Anaconda *or*
 
- - **Pycharm** https://www.jetbrains.com/pycharm/  
+    - **Pycharm** https://www.jetbrains.com/pycharm/  
 
 - Enjoy executing some code:  
 Launch a jupyter notebook
