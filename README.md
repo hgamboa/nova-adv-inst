@@ -3,7 +3,7 @@
 
 Lab Lessons
 
-## [Lab 1 - Installing python](lab1-installing python.md)
+## [Lab 1 - Installing python](lab1-installing-python.md)
 
 ## [Lab 2 - Setting up and Controling Arduino from Raspberry](lab2-arduino.md)
 
@@ -11,9 +11,9 @@ Lab Lessons
 
 ## [Lab 4 - Creating a virtual machine](lab3-virtualization.md)
 
-## [Lab 5 - Controling Arduino from a Raspberry Pi](lab5-access arduino from rpi.md)
+## [Lab 5 - Controling Arduino from a Raspberry Pi](lab5-access-arduino-from-rpi.md)
 
-## [Lab 6 - Setting up Raspberry Pi](lab6-setting up raspberry pi.md)
+## [Lab 6 - Setting up Raspberry Pi](lab6-setting-up-raspberry-pi.md)
 
 ## [Lab 7 - Seting up a visualization server](lab7-vis-server.md)
 
