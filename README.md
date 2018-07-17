@@ -19,6 +19,6 @@ Lab Lessons
 
 ## [Lab 8 - Visualization](lab8-vis.md)
 
-## [Lab 6 - Logging data and realtime plotting](lab9-log.md)
+## [Lab 9 - Logging data and realtime plotting](lab9-log.md)
 
-## [Lab 7 - Mobile instrumentation](lab10-mobile.md)
+## [Lab 10 - Mobile instrumentation](lab10-mobile.md)
