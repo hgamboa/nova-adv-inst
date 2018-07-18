@@ -1,4 +1,4 @@
-# Lab 3/4 - Setting up Raspberry Pi
+# Lab 6 - Setting up Raspberry Pi
 
 ## PLUGGING IN YOUR RASPBERRY PI
 
