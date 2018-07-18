@@ -6,7 +6,7 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ## [Lab 1 - Installing python](lab1-installing-python.md)
 
-## [Lab 2 - Setting up and Controling Arduino from Raspberry](lab2-arduino.md)
+## [Lab 2 - Setting up Arduino](lab2-arduino.md)
 
 ## [Lab 3 - Connecting to Raspberry pi ](lab3-rpi.md)
 
