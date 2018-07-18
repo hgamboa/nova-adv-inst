@@ -8,9 +8,9 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ## [Lab 2 - Setting up and Controling Arduino from Raspberry](lab2-arduino.md)
 
-## [Lab 3 - Connecting to Raspberry pi ](lab1-rpi.md)
+## [Lab 3 - Connecting to Raspberry pi ](lab3-rpi.md)
 
-## [Lab 4 - Creating a virtual machine](lab3-virtualization.md)
+## [Lab 4 - Creating a virtual machine](lab4-virtualization.md)
 
 ## [Lab 5 - Controling Arduino from a Raspberry Pi](lab5-access-arduino-from-rpi.md)
 
