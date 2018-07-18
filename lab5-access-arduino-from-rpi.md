@@ -1,4 +1,4 @@
-# Lab 4 - Controlling Arduino from the Raspberry pi using Python PyFirmata
+# Lab 5 - Controlling Arduino from the Raspberry pi using Python PyFirmata
 
 
 ## Pre requirements
