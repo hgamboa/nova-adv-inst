@@ -1,7 +1,8 @@
-# nova-adv-inst
-**Nova Advanced Instrumentation Applications** Course support materials
+# Nova Advanced Instrumentation Applications
 
-Lab Lessons
+** Course support materials
+
+Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 labs. The project will be developed on the final 4 labs. 
 
 ## [Lab 1 - Installing python](lab1-installing-python.md)
 
