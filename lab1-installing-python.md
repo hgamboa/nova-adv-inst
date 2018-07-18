@@ -1,4 +1,4 @@
-# Lab 1 Installing python
+# Lab 1 - Installing python
 
 
 
