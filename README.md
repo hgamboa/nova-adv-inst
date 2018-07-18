@@ -1,6 +1,6 @@
 # Nova Advanced Instrumentation Applications
 
-**LabCourse support materials**
+**Lab support materials**
 
 Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 labs. The project will be developed on the final 4 labs. Each lab declares the requirments to execute the lab and what should be prepared by the student.  
 
