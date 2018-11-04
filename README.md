@@ -1,15 +1,16 @@
-# nova-adv-inst
-**Nova Advanced Instrumentation Applications** Course support materials
+# Nova Advanced Instrumentation Applications
 
-Lab Lessons
+**Lab support materials**
+
+Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 labs. The project will be developed on the final 4 labs. Each lab declares the requirments to execute the lab and what should be prepared by the student.  
 
 ## [Lab 1 - Installing python](lab1-installing-python.md)
 
-## [Lab 2 - Setting up and Controling Arduino from Raspberry](lab2-arduino.md)
+## [Lab 2 - Setting up Arduino](lab2-arduino.md)
 
-## [Lab 3 - Connecting to Raspberry pi ](lab1-rpi.md)
+## [Lab 3 - Connecting to Raspberry pi ](lab3-rpi.md)
 
-## [Lab 4 - Creating a virtual machine](lab3-virtualization.md)
+## [Lab 4 - Creating a virtual machine](lab4-virtualization.md)
 
 ## [Lab 5 - Controling Arduino from a Raspberry Pi](lab5-access-arduino-from-rpi.md)
 
@@ -19,6 +20,6 @@ Lab Lessons
 
 ## [Lab 8 - Visualization](lab8-vis.md)
 
-## [Lab 6 - Logging data and realtime plotting](lab9-log.md)
+## [Lab 9 - Logging data and realtime plotting](lab9-log.md)
 
-## [Lab 7 - Mobile instrumentation](lab10-mobile.md)
+## [Lab 10 - Mobile instrumentation](lab10-mobile.md)

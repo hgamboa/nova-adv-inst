@@ -1,55 +1,151 @@
-# Lab 3/4 - Setting up Raspberry Pi
-
-## PLUGGING IN YOUR RASPBERRY PI
-
-* Before you plug anything into your Raspberry Pi, make sure that you have all the equipment listed bellow:
-  - SD card
-  - Display and connectivity cables
-  - Keyboard and mouse
-  - Power supply
-  - Internet connection (via an ethernet cable or a wifi adapter)
-
-  1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi.
-  2. Next, plug in your USB keyboard and Mouse into the USB slots on the Raspberry Pi.
-  3. Make sure that your monitor or TV is turned on, and that you have selected the right input (e.g. HDMI 1, DVI, etc).
-  4. Then connect your HDMI cable from your Raspberry Pi to your monitor or TV.
-  5. To connect your Raspberry Pi to the internet, plug in an ethernet cable into the ethernet port next to the USB ports or
-  plug in your Wireless nano USB Adapter into the USB slot. 
-  6. Finally plug in the micro usb power supply. Your Raspberry Pi will turn on and boot.
-
-## LOGGING INTO YOUR RASPBERRY PI
-
-* Your raspberry pi will start loading the Operating System (Raspbian).
-* As this is the first time you have booted Raspbian, the Raspberry Pi Config Menu will apppear:
-  - Using your keyboard to navigate through this menu, select "Internationalization options" -> "Change Timezone" and select
-  your geographic location. 
-* Then, select "Finish" and press Enter.
-* You will return to the command line.
+# Lab 6 - Setting up Raspberry Pi
 
 
+* Full raspberry installation guide
 
-* Login prompt:
+1. Set a lab router with the ssid pi and password
 
-  > username: pi
-  > password: raspberry
+2. Copy raspbian
 
-* After the command line prompt (pi@raspberrypi~$) wirte "startx":
+3. Setup starting script (need and HDMI monitor)
 
-  > pi@raspberrypi~$ startx
+plug a network cable
+ssh log to the raspberry with the indicated ip
 
-  and press Enter.
+create a new directory
 
-## HELP
+sudo mkdir /setup
 
-* If you have problems with keyboard configuration:
-http://raspberrypi.stackexchange.com/questions/236/simple-keyboard-configuration
+copy the files in this directory a setup directory in your home directory 
 
-Use the following command to reconfigure your keyboard:
+And form ssh do 
 
-  > sudo dpkg-reconfigure keyboard-configuration
+sudo cp ~/setup/* /setup 
 
-Choose "Portugues" for keyboard layout. Then , reboot.
+and copy the rc.local to /etc/rc.local
 
-  > sudo reboot
+sudo cp ~/setup/rc.local /etc/rc.local
 
+
+4. Install packages
+
+First update your package sources:
+
+
+sudo apt-get update 
+
+sudo apt-get install python-pip
+sudo pip install --upgrade pip
+
+
+sudo pip install python-dev numpy --upgrade
+
+sudo apt-get install ipython python-scipy python-matplotlib python-pandas 
+
+sudo pip install jupyter
+sudo pip install bokeh --upgrade
+sudo pip install mpld3
+sudo pip install seaborn
+
+sudo pip install -U scikit-learn
+
+sudo apt-get install byobu 
+
+execute byobu-enable
+
+
+sudo apt-get install tightvncserver 
+
+Lunch vnc server
+
+vncserver
+
+then connect to your ip:1
+
+192.168.0.xxx:1
+
+
+ 
+5. setup network
+
+/networks
+
+
+6. Startup scrips
+
+/etc/rc.local
+
+python /setup/start.py
+
+######### start.py
+
+
+
+
+
+##########
+
+
+
+
+######## /etc/networks/interfaces
+
+auto lo
+iface lo inet loopback
+
+auto eth0
+allow-hotplug eth0
+iface eth0 inet manual
+
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet static
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+address 192.168.0.111
+network 192.168.0.0
+netmask 255.255.255.0
+broadcast 192.168.0.255
+gateway 192.168.0.1
+dns-nameservers 192.168.0.1
+
+
+
+#########
+
+########## /etc/wpa_suplicant/wpa_suplicant.conf
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+        ssid="pi"
+        psk="raspberry"
+        key_mgmt=WPA-PSK
+}
+
+###########
+
+
+Follow: http://jupyter-notebook.readthedocs.org/en/latest/public_server.html
+
+jupyter notebook --generate-config
+
+
+
+###########  copy next file to ~/.jupyter/jupyter_notebook_config.py
+
+# Configuration file for jupyter notebook.
+c = get_config()
+c.NotebookApp.ip = '*'
+c.NotebookApp.open_browser = False
+c.NotebookApp.password = u'sha1:ceaf7b8b148f:92bcc3411cf43275a324e8a8b6755601b5419610'
+c.NotebookApp.port = 80
+c.IPKernelApp.pylab = 'inline'
+##########
+
+Launch using: 
+
+sudo jupyter notebook --config=.jupyter/jupyter_notebook_config.py
+
+password is raspberry
 
