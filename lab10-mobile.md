@@ -257,3 +257,9 @@ If you are using an Android device, make sure you have your phone connect or a v
 You should see a page asking you to insert your raspberry's IP. Type the IP and click connect.
 
 After your raspberry connects, you should see a number of different graphs.
+
+### Goal three - Adapt the code
+
+Change the server.py file to send data from the Arduino analog channel 1.
+
+Afterwards, try to add another chart to receive data from analog channel 2.
