@@ -202,7 +202,7 @@ Now you can import the ScreenA and ScreenB components to the MainScreen file usi
 	// MainScreen.js
 	
 	import {ScreenA, ScreenB} from './Screens'
-	
+
 ## Usefull link and resources
 
 Inside of each folder there is a small readme.md file, explaining with more detail each project.
@@ -210,3 +210,50 @@ Inside of each folder there is a small readme.md file, explaining with more deta
 The react-native documentation: https://facebook.github.io/react-native/docs/getting-started
 
 A simple crash course video you should check before class and follow along: https://www.youtube.com/watch?v=mkualZPRZCs
+
+# Goals
+
+After you do the pre-class setup, try to achive the following goals.
+
+
+## Goal one - create the hello world example
+
+After you install all the requirements need by react-native, try to create the hello world example.
+
+Open the command line and type
+
+	react-native init AwesomeProject
+	
+This line will create all the basic folders and files you need to create a new app.
+
+If you are using Android, follow the steps in the link to configure your device: https://facebook.github.io/react-native/docs/getting-started#preparing-the-android-device.
+
+If you are using the an iOS device, you can proceed to the next step
+
+Navigate to the newly created folder (AwesomeProject) and go back to the command line and type
+
+	react-native run-android or react-native run-ios
+
+This should launch the hello world example app.
+
+
+## Goal two - Run the sample app
+
+For this goal you will need to copy the RaspMetric folder to your raspberry
+
+### Running the server
+
+In your raspberry, navigate to the RaspMetric folder and type
+
+	python3 stats_server.py
+
+### Running the sample app
+
+In your computer, go to the SampleApp folder and type
+
+	react-native run-android or react-native run-ios
+
+If you are using an Android device, make sure you have your phone connect or a virtual device running.
+You should see a page asking you to insert your raspberry's IP. Type the IP and click connect.
+
+After your raspberry connects, you should see a number of different graphs.
