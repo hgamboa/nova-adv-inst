@@ -1,8 +1,8 @@
 import RaspConnect from './raspconnect'
-import StatsScreen from './statsscreen'
+import ChartScreen from './chartsscreen'
 
 
 export {
     RaspConnect,
-    StatsScreen
+    ChartScreen
 }

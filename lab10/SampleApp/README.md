@@ -24,9 +24,9 @@ This library is responsible for navigation between screens, enabling you to chan
 
 ## App overview and project structure
 
-This app has two screens, one where you input your raspberry IP address and another where the CPU load, CPU temp, Memory consumed, and uptime are shown.
+This app has two screens, one where you input your raspberry IP address and another data from the server is ploted.
 
-These two screens are called raspconnect (the initial screen) and statsscreen. 
+These two screens are called raspconnect (the initial screen) and chartscreen. 
 
 When you create a React-Native app, the following resources are automatically created:
 
@@ -42,15 +42,11 @@ To simplify and to organize all the components and logic of this app, a new fold
 
 	- Static
 		- assets // folder with simplest components that are going to be called by others
-			- square.js // js file that renders a square used to show each of the metrics fetch from the python server.
-			- alltoghther.js //  js file where all the metrics are overlayed in a chart
-		- components
-			- columnleft.js //  a scrollView component calling two sqaure components
-			- columnright.js // a scrollView component calling two square components
+			- charts.js //  js file where a chart component is defined
 		- images // folder containing an image asset
 		- screens
 			- raspconnect // initial screen where the user can connect to a raspberry
-			- statsscreen // componnet that displays the metrics served by the python script
+			- chartscreen // componnet that displays the metrics served by the python script
 			
 			
 The app flowchart is as follows:
@@ -59,7 +55,7 @@ The app flowchart is as follows:
 	- User inputs the IP of the raspberry
 		- If IP is wrong then display an alert message
 		- If IP is right, proceed to the statsscreen
-			- Fetch from the Python server the metrics every second until the user disconnets or the connection is droped
+			- Fetch from the Python server the metrics every 200ms until the user disconnets or the connection is droped
 			
 As you can see, the app behaviour is very simple and this project should provide the basic tools enabling you to develop an app for your final project.
 
@@ -68,11 +64,7 @@ The following is a scheme of the relation between each JS file
 	- App.js
 		- raspconnect.js
 		- statsscreen.js
-			-columnLeft.js
-				-square.js
-			- columnRight.js
-				-square.js
-			- alltogether.js
+			-chart.js
 
 Each file has the appropiate comments through the code. 
 		

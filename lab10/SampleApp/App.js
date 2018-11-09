@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {RaspConnect, StatsScreen} from './static/screens'; // Import both screens that will be used from the folder screens 
+import {RaspConnect, ChartScreen} from './static/screens'; // Import both screens that will be used from the folder screens 
 import { createSwitchNavigator } from 'react-navigation';
 
 export default class App extends Component { 
@@ -25,7 +25,7 @@ export default class App extends Component {
 
 const Router = createSwitchNavigator(
   {
-    Dashboard: StatsScreen,
+    chartPage: ChartScreen,
     Config: RaspConnect,
   },
   {

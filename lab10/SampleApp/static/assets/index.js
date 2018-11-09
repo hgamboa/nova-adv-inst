@@ -1,6 +1,4 @@
-import Square from './square'
-import AllTogether from './alltogether'
+import Charts from './charts'
 export {
-    Square,
-    AllTogether
+    Charts
 }
