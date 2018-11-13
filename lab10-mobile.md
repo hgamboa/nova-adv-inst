@@ -1,6 +1,6 @@
 # Pre Class setup
 
-- Before class, go to [https://facebook.github.io/react-native/docs/getting-started.html](https://facebook.github.io/react-native/docs/getting-started.html) and follow the step-by-step guide to configure your computer. 
+- Before class, go to [https://facebook.github.io/react-native/docs/getting-started.html](https://facebook.github.io/react-native/docs/getting-started.html [Building with native code]) and follow the step-by-step guide to configure your computer. 
 
 - Learn how to lunch a virtual device of your choice, either via the Android Emulator or via iPhone Simulator.
 
