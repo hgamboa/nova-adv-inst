@@ -1,4 +1,4 @@
-# Lab 8 - Visualization
+# Lab 7 - Visualization
 
 
 ## Pre Lab requirments

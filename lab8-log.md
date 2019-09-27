@@ -1,4 +1,4 @@
-# Lab 9 - Logging and plotting
+# Lab 8 - Logging and plotting
 
 ## Lab Goals
 

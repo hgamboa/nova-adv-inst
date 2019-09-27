@@ -1,4 +1,4 @@
-# Lab 6 - Setting up Raspberry Pi
+# Optional Lab  5.1 - Setting up Raspberry Pi
 
 
 * Full raspberry installation guide

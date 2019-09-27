@@ -1,13 +1,13 @@
-# Lab 3 - Connecting to the Raspberry Pi
+# Lab 4 - Connecting to the Raspberry Pi
 
 
 ## Pre Lab requirments
 
 * Install **bitvise** (macos:command line **ssh** plus **cyberduck**)
-* Install **tightvnc** viewer (macos: **chicken of the VNC**) 
+* Install **tightvnc** viewer (macos: **chicken of the VNC**)
 
 ## Starting steps
-* Connect your laptop to the local lab network 
+* Connect your laptop to the local lab network
 ** ssid: pi
 ** pass: raspberry
 
@@ -17,7 +17,7 @@
 
 * Find the mac address of the wifi pen to copute the local ip address.
 ** ex: 74Da38546692
-* Compute the decimal value of the two last hexadecimal digitis: 
+* Compute the decimal value of the two last hexadecimal digitis:
 ** ex: HEX - 92 -> DEC - 146
 ** Use a calculator to do the conversion or write in ipython with format 0x92 and view the reusult.
 
@@ -25,7 +25,7 @@
 * Connext via ssh to the raspberry pi
 
 `
-ssh pi@192.168.0.XXX 
+ssh pi@192.168.0.XXX
 `
 
 (XXX substitute with the computed local ip)
@@ -48,13 +48,13 @@ vncserver
 
 The password is: raspberry
 
-Launch an ipython shell with 
+Launch an ipython shell with
 
 `
 ipython --pylab
 `
 
-Do a simple plot : 
+Do a simple plot :
 
 `
 plot(randn(100))
@@ -67,7 +67,7 @@ savefig('plot.pdf')
 `
 
 
-## Going deeper 
+## Going deeper
 * Config guide of the memory card [Raspberry pi Setup](raspberry_pi_setup.md)
 
 * Learn to use byobu http://byobu.co/

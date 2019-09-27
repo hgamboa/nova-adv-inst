@@ -1,4 +1,4 @@
-# Lab 4 - Virtual Raspberry pi 
+# Optional Lab (4.1) - Virtual Raspberry pi 
 
 ## Pre Lab requirments
 
