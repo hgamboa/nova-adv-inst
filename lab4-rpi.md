@@ -3,7 +3,7 @@
 
 ## Pre Lab requirments
 
-* Install **bitvise** (macos:command line **ssh** plus **cyberduck**)
+* Install **bitvise** client (macos:command line **ssh** plus **cyberduck**)
 * Install **tightvnc** viewer (macos: **chicken of the VNC**)
 
 ## Starting steps
