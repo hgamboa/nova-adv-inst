@@ -10,7 +10,7 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ## Lab 3 - Python exercises
 
-## [Lab 4 - Connecting to Raspberry pi ](lab3-rpi.md)
+## [Lab 4 - Connecting to Raspberry pi ](lab4-rpi.md)
 
 ### [Lab 4.1 - Setting up a virtual raspberrypi](lab4.1-virtualization.md)
 
