@@ -68,6 +68,6 @@ savefig('plot.pdf')
 
 
 ## Going deeper
-* Config guide of the memory card [Raspberry pi Setup](raspberry_pi_setup.md)
+* Config guide of the memory card [Raspberry pi Setup](lab5.1-setting-up-raspberry-pi.md)
 
 * Learn to use byobu http://byobu.co/
