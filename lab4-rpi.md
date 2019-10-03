@@ -71,3 +71,5 @@ savefig('plot.pdf')
 * Config guide of the memory card [Raspberry pi Setup](lab5.1-setting-up-raspberry-pi.md)
 
 * Learn to use byobu http://byobu.co/
+
+* Linux commands - 101 most importants: https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je
