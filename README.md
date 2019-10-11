@@ -18,10 +18,10 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ### [Lab 5.1 - Setting up Raspberry Pi](lab5.1-setting-up-raspberry-pi.md)
 
-## [Lab 6 - Seting up a visualization server](lab7-vis-server.md)
+## [Lab 6 - Seting up a visualization server](lab6-vis-server.md)
 
-## [Lab 7 - Visualization](lab8-vis.md)
+## [Lab 7 - Visualization](lab7-vis.md)
 
-## [Lab 8 - Logging data and realtime plotting](lab9-log.md)
+## [Lab 8 - Logging data and realtime plotting](lab8-log.md)
 
-## [Lab 9 - Machine Learning on the raspberrypi](lab10-ml.md)
+## [Lab 9 - Machine Learning on the raspberrypi](lab9-ml.md)
