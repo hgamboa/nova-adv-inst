@@ -1,4 +1,4 @@
-# Lab 2 - Setting up Arduino and Controling Arduino from raspberrypi
+# Lab 5 - Setting up Arduino and Controling Arduino from raspberrypi
 
 ## PART I
 
