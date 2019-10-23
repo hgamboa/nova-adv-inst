@@ -3,7 +3,7 @@
 
 ## Pre Lab requirments
 
-* Install **bitvise** (macos:command line **ssh** plus **cyberduck**)
+* Install **bitvise** client (macos:command line **ssh** plus **cyberduck**)
 * Install **tightvnc** viewer (macos: **chicken of the VNC**)
 
 ## Starting steps
@@ -68,6 +68,8 @@ savefig('plot.pdf')
 
 
 ## Going deeper
-* Config guide of the memory card [Raspberry pi Setup](raspberry_pi_setup.md)
+* Config guide of the memory card [Raspberry pi Setup](lab5.1-setting-up-raspberry-pi.md)
 
 * Learn to use byobu http://byobu.co/
+
+* Linux commands - 101 most importants: https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je
