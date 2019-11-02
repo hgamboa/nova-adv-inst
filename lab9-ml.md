@@ -26,7 +26,7 @@ Then connect several classifiers to the Test and Score Module:
 
 The structure should be similar to:
 
-![Orange Compare](orangecompare.jpg)
+![Orange Compare](orangecompare.png)
 
 Use the iris data set (selected in the File widget)
 
@@ -42,7 +42,7 @@ Recreate the classifier with only a decision classifier. Use the decision tree v
 
 ### Regression
 
-Recreate the pipeline to use the housing dataset (https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html)
+Recreate the pipeline to use the housing dataset [dataset description](https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html)
 
 Start by using PCA widget (in Unsupervized panel) to make a dimensionality reduction to 3 principal components.
 
@@ -59,7 +59,7 @@ instantiate naive bayes and knn classifiers:
 sklearn.naive_bayes.GaussianNB
 sklearn.neighbors.KNeighborsClassifier
 
-Load the digits dataset (datasets.load_digits() https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html ), and separate into training and testing datasets.
+Load the digits dataset (datasets.load_digits() [dataset description](https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html) ), and separate into training and testing datasets.
 
 Then use the functions in each classifiers
 
@@ -72,4 +72,4 @@ To evaluate the performance of the classifier use the functions:
 * metrics.confusion_matrix
 
 
-Use this example in case of need: https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py
+Use this [example](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py) in case of need. 
