@@ -1,9 +1,9 @@
 # Lab 6 - Setting up a vizualization server
 
 
-## Pre Lab requirments
+## Pre Lab requirements
 
-* Install bokeh via pip or via the full anaconda distribuition
+* Install bokeh via pip or via the full anaconda distribution  
 * Install nova instrumentation
 
 
@@ -40,7 +40,7 @@ Then open a browser in your computer and write the IP address of your raspberry 
 Perform some examples using Bokeh ploting commands.
 
 
-## Going deeper 
+## Going deeper
 * See the 5 minute intro to bokeh: http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/quickstart/quickstart.ipynb
 * See more advanced examples on the workshop from Cristine Doig: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
 * The examples are in: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
