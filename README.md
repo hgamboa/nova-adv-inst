@@ -24,4 +24,4 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ## [Lab 8 - Logging data and realtime plotting](lab8-log.md)
 
-## [Lab 9 - Machine Learning on the raspberrypi](lab9-ml.md)
+## [Lab 9 - Machine Learning Examples](lab9-ml.md)
