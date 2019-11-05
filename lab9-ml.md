@@ -1,9 +1,9 @@
-# Lab 9 - Machine Lerning with Orange and SkLearn
+# Lab 9 - Machine Learning with Orange and SkLearn
 
 
 ## Pre Lab requirements
 
-* In you laptop, install Orange in anaconda Navigator
+* In **your** laptop, install Orange in anaconda Navigator
 
 ## Goal 1 - Orange Python - Create machine learning pipelines using Orange
 
@@ -32,7 +32,7 @@ Use the iris data set (selected in the File widget)
 
 ### Test the best features
 
-Use the widget select columns (from Data panel in Orange).
+Use the widget select columns (from Data panel in Orange). Place it between the File widget and the Test and Score widget.   
 
 Verify what is the single best features for the iris dataset.
 
