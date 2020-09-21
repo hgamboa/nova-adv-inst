@@ -2,11 +2,17 @@
 
 ## Pre Lab requirments
 
-* Install virtual box application (https://www.virtualbox.org/wiki/Downloads)
-* Download Lubuntu distribution(https://help.ubuntu.com/community/Lubuntu/GetLubuntu  ~600MB)
+* Install virtual box application (ver 6.1.14)  (https://www.virtualbox.org/wiki/Downloads)
+* Download Lubuntu distribution (ver. 18.04.5 Alternate 64 bits) (https://lubuntu.me/downloads/  ~600MB)
 
 ## Starting steps
 * Create and setup a new virtual machine with the lubuntu linux distribution.
+### Windows Guys
+* If you need help for the installation:
+* VirtualBox: https://www.youtube.com/watch?v=WD1vMhJGPn8 
+* Lubunto: https://www.youtube.com/watch?v=9f2l3j0rF-E (note: this tutorial shows the instalation the older version of VirtualBox
+
+* Warning:Warning: It is possible that you will get an error when you try to start a virtual machine. The details of the error box should have VT-x is disable in the BIOS. If that happens it is necessary to go to the BIOS of your system and activate the virtualization mode of the processor. Depending of the manufacturer there is different ways to do it and you must look specifically for your computer model. An tutorial can be found in: https://support.bluestacks.com/hc/en-us/articles/115003174386-How-can-I-enable-virtualization-VT-on-my-PC-for-BlueStacks-4-
 
 ## Lab Goals
 
