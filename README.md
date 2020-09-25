@@ -10,7 +10,7 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ### Lab P 2 - Python for scientific computation exercices (in lecture slides)
 
-### Lab P 3 - [Connecting to Raspberry pi ](lab4-rpi.md) (LP3-rpi.md)
+### Lab P 3 - [Connecting to Raspberry pi ](LP3-rpi.md)
 
 ### Lab P 4 - [Setting up and controling Arduino from a Raspberry Pi](lab5-access-arduino-from-rpi.md) (LP4-access-arduino-from-rpi.md)
 
@@ -25,11 +25,11 @@ Tasks to submit until the end of the remote lab week (20:00 Friday) on moodle.
 
 ### Lab R 1 - [Setting up a virtual raspberrypi](LR1-virtualization.md)
 
-### Lab R 2 -  [Seting up a visualization server](LR2-vis-server.md)
+### Lab R 2 - [Seting up a visualization server](LR2-vis-server.md)
 
-### Lab R 3 - PENDING [Lab 7 - Visualization](LR3-vis.md)
+### Lab R 3 - [Visualization](LR3-vis.md)
 
-### Lab R 4 - PENDING [Machine Learning Exercises](lab9-ml.md) (LR4-ml.md)
+### Lab R 4 - [Machine Learning Exercises](LR4-ml.md)
 
 ### Lab R 5 - Project
 

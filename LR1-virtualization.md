@@ -43,7 +43,7 @@
 ```
 
 
-## Report - Until Friday 20:00 of your remote lecture
+## Report - :red_circle: Until Friday 20:00 of your remote lecture
 
 * Submit a pdf in moodle with a screenshot of your virtual machine with a terminal inside the created directory.
 
