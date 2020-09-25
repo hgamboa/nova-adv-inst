@@ -16,10 +16,12 @@
 ## Goal 1 - Transfer function of a low pass
 
 * Plot the DB of the transfer function of the gain in a frequency log scale.
-** |H| = 1/sqrt(1 + (f/f_c)^2)
+
+|H| = 1/sqrt(1 + (f/f_c)^2)
 
 * Plot the phase of the transfer function in degrees in a frequency log scale.
-** phase(H) = -2 arctan(f/f_c)$
+
+phase(H) = -2 arctan(f/f_c)
 
 
 ## Goal 2 - Random walk
