@@ -1,6 +1,6 @@
 # Remote Lab 1 - Virtual Raspberry pi 
 
-## Requirments
+## Requirements
 
 * Install virtual box application (Windows - ver 6.1.14; Mac -ver 5.2.30)  (https://www.virtualbox.org/wiki/Downloads)
 * Download Lubuntu distribution (ver. 18.04.5 Alternate 64 bits) (https://lubuntu.me/downloads/  ~600MB)
