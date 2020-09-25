@@ -73,3 +73,8 @@ To evaluate the performance of the classifier use the functions:
 
 
 Use this [example](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py) in case of need. 
+
+## Report - :red_circle: Until Friday 20:00 of your remote lecture
+
+* Submit a pdf in moodle with a screenshot of the orange pipeline and a screeshot of confusion matrix produced in sklearn.
+

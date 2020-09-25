@@ -42,6 +42,12 @@ by turning some points to 1
 * Smooth the image with a vertical smooth by passing in each column.
 * Smooth the image with a vertical smooth and horizontal pass.
 
+
+## Report - :red_circle: Until Friday 20:00 of your remote lecture
+
+* Submit a pdf in moodle with a screenshot of all 4 plots
+
+
 ## Going deeper 
 * See the workshop from Cristine Doig: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
 * The examples are in: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
