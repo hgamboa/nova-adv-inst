@@ -3,7 +3,7 @@
 
 ## PART I
 
-## Pre Lab requirments
+## Pre lab requirements
 
 * Install arduino IDE at  https://www.arduino.cc/en/Main/Software
 
