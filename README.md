@@ -12,9 +12,9 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ### Lab P 3 - [Connecting to Raspberry pi ](LP3-rpi.md)
 
-### Lab P 4 - [Setting up and controling Arduino from a Raspberry Pi](lab5-access-arduino-from-rpi.md) (LP4-access-arduino-from-rpi.md)
+### Lab P 4 - [Setting up and controling Arduino from a Raspberry Pi](LP4-access-arduino-from-rpi.md)
 
-### Lab P 5 - [Lab 8 - Logging data and realtime plotting](lab8-log.md) (LP5-log.md)
+### Lab P 5 - [Lab 8 - Logging data and realtime plotting](LP5-log.md)
 
 ### Lab P 6 - Project
 
