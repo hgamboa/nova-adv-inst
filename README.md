@@ -25,7 +25,7 @@ Tasks to submit until the end of the remote lab week (20:00 Friday) on moodle.
 
 ### Lab R 1 - [Setting up a virtual raspberrypi](LR1-virtualization.md)
 
-### Lab R 2 - [Seting up a visualization server](LR2-vis-server.md)
+### Lab R 2 - [Setting up a visualization server](LR2-vis-server.md)
 
 ### Lab R 3 - [Visualization](LR3-vis.md)
 
