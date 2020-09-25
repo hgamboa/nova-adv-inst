@@ -2,7 +2,7 @@
 
 **Lab support materials**
 
-Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 labs. The project will be developed on the final 4 labs. Each lab declares the requirments to execute the lab and what should be prepared by the student.  
+Here the students of MIEF and MIEBM can find the Lab Lessons for the first remote and presential labs. The project will be developed on the final 3 labs. Each lab declares the requirments to execute the lab and what should be prepared by the student.  The remote labs require the submission of a pdf in moodle demonstrating the execution of the lab.
 
 ## Lab Work - Presential Work
 
@@ -14,7 +14,7 @@ Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 la
 
 ### Lab P 4 - [Setting up and controling Arduino from a Raspberry Pi](LP4-access-arduino-from-rpi.md)
 
-### Lab P 5 - [Lab 8 - Logging data and realtime plotting](LP5-log.md)
+### Lab P 5 - [Logging data and realtime plotting](LP5-log.md)
 
 ### Lab P 6 - Project
 
