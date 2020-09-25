@@ -1,4 +1,4 @@
-# Lab 4 - Connecting to the Raspberry Pi
+# Lab 3 - Presential - Connecting to the Raspberry Pi
 
 
 ## Pre Lab requirments

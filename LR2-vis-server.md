@@ -1,7 +1,6 @@
-# Lab 6 - Setting up a vizualization server
+# Remote Lab 2 - Setting up a vizualization server
 
-
-## Pre Lab requirements
+## Requirements
 
 * Install bokeh via pip or via the full anaconda distribution  
 * Install nova instrumentation

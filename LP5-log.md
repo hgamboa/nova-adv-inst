@@ -1,4 +1,4 @@
-# Lab 8 - Logging and plotting
+# Lab 5 - Presential - Logging and plotting
 
 ## Lab Goals
 

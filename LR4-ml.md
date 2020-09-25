@@ -1,7 +1,7 @@
-# Lab 9 - Machine Learning with Orange and SkLearn
+# Remote Lab 4 - Machine Learning with Orange and SkLearn
 
 
-## Pre Lab requirements
+## Requirements
 
 * In **your** laptop, install Orange in anaconda Navigator
 

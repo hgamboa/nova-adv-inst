@@ -1,7 +1,7 @@
-# Lab 7 - Visualization
+# Remote Lab 3 - Visualization
 
 
-## Pre Lab requirments
+## Requirements
 
 * Install bokeh via pip or via the full anaconda distribuition
 * Install nova instrumentation
