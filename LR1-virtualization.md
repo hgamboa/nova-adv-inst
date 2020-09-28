@@ -11,13 +11,13 @@
 ### Tips for Windows users
 * If you need help for the installation:
 * VirtualBox: https://www.youtube.com/watch?v=WD1vMhJGPn8 
-* Lubuntu: https://www.youtube.com/watch?v=9f2l3j0rF-E (note: this tutorial shows the instalation of an older version of VirtualBox
+* Lubuntu: https://www.youtube.com/watch?v=9f2l3j0rF-E (note: this tutorial shows the instalation of an older version of VirtualBox)
+
+* Warning:Warning: It is possible that you will get an error when you try to start a virtual machine. The details of the error box should have VT-x is disable in the BIOS. If that happens it is necessary to go to the BIOS of your system and activate the virtualization mode of the processor. Depending of the manufacturer there is different ways to do it and you must look specifically for your computer model. An tutorial can be found in: https://support.bluestacks.com/hc/en-us/articles/115003174386-How-can-I-enable-virtualization-VT-on-my-PC-for-BlueStacks-4-
 
 ### Tips for Mac users
 * The most recent version of virtual box do not work in all macs.
 * An alternative is using VMware fusion (also free for personal usage). (https://www.vmware.com/products/fusion.html) 
-
-* Warning:Warning: It is possible that you will get an error when you try to start a virtual machine. The details of the error box should have VT-x is disable in the BIOS. If that happens it is necessary to go to the BIOS of your system and activate the virtualization mode of the processor. Depending of the manufacturer there is different ways to do it and you must look specifically for your computer model. An tutorial can be found in: https://support.bluestacks.com/hc/en-us/articles/115003174386-How-can-I-enable-virtualization-VT-on-my-PC-for-BlueStacks-4-
 
 ## Lab Goals
 
