@@ -39,7 +39,7 @@
  * Install python packages 
  * Test ipython 
 ```
- > sudo apt-get install ipython python-scipy python-matplotlib ipython-notebook
+ > sudo apt-get install ipython python-scipy python-matplotlib jupyter-notebook
 ```
 
 
