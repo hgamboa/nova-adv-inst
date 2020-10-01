@@ -37,7 +37,7 @@
 ## Goal 2 - Install python  packages
 
  * Install python packages 
- * Teste ipython 
+ * Test ipython 
 ```
  > sudo apt-get install ipython python-scipy python-matplotlib ipython-notebook
 ```
