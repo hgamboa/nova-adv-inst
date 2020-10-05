@@ -1,6 +1,8 @@
-# Remote Lab 2 - Setting up a vizualization server
+# Remote Lab 2 - Setting up a vizualization server in a VM
 
 ## Requirements
+
+In your VM created in LR1: 
 
 * Install bokeh via pip or via the full anaconda distribution  
 * Install nova instrumentation
