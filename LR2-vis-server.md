@@ -22,6 +22,7 @@ In your VM created in LR1:
 c = get_config()
 c.NotebookApp.ip = '*'
 c.NotebookApp.open_browser = False
+# This pass is: raspberry
 c.NotebookApp.password = u'sha1:ceaf7b8b148f:92bcc3411cf43275a324e8a8b6755601b5419610'
 c.NotebookApp.port = 80
 c.IPKernelApp.pylab = 'inline'
