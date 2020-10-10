@@ -1,17 +1,61 @@
 # Remote Lab 2 - Setting up a vizualization server in a VM
 
 ## Requirements
-
 In your VM created in LR1: 
-
-* Install bokeh via pip or via the full anaconda distribution  
 * Install nova instrumentation
-
+```
+--> sudo pip install novainstrumentation
+```
 
 ## Lab Goals
 
 
-## Goal 1 - setup Jupyter notebook server
+## Goal 1 - setup local Jupyter notebook server 
+In your VM created in LR1: 
+
+* Verify if python 3 is installed:
+```
+--> python3 --version
+```
+* If not install it
+```
+--> sudo apt install python3
+```
+* Installing Jupyter Notebook
+  * Option 1 (light)
+  ```
+  --> sudo apt install jupyter-core
+  --> sudo pip3 install notebook
+  ```
+  * Option 2 (miniconda)
+  ```
+  https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+  ```
+  * Option 3 (full anaconda)
+  ```
+  https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+  ```
+* test Jupyter notebook locally
+  ```
+  --> jupyter notebook
+  ```
+
+
+## Goal 2 - setup Bokeh
+
+* install bokeh
+  ```
+	--> sudo pip3 install bokeh
+  ```
+  
+* Try Bokeh
+  ```
+  https://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/quickstart/quickstart.ipynb
+  ```
+
+
+
+## Goal 3 - setup remote Jupyter notebook server
 
 * Follow the insrtuctions: http://jupyter-notebook.readthedocs.io/en/latest/public_server.html
 
@@ -34,10 +78,10 @@ c.IPKernelApp.pylab = 'inline'
 sudo jupyter notebook --config=.jupyter/jupyter_notebook_config.py --allow-root
 ```
 
-Then open a browser in your computer and write the IP address of your raspberry pi.
+Then open a browser in your computer and write the IP address of your VM.
 
 
-## Goal 2 - Launch the bokeh-server
+## Goal 4 - Launch the bokeh-server
 
 Perform some examples using Bokeh ploting commands.
 
