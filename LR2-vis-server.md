@@ -80,8 +80,22 @@ sudo jupyter notebook --config=.jupyter/jupyter_notebook_config.py --allow-root
 
 Then open a browser in your computer and write the IP address of your VM.
 
+## Goal 4 - Create in VM a shared folder with the host
+* In VM choose a shared folder in host by configuring: Devices - Shared Folderes - Shared Folder Settings
+* Install in ubunto
+	```
+	--> sudo apt-get install virtualbox-guest-dkms
+	--> sudo apt-get install virtualbox-guest-utils
+	```
+* Add user to virtualbox share
+	```
+	--> whoami (to confirm user name)
+	--> sudo adduser <user name> vboxsf
+	```
+* reboot VM
+* The new shared folder should become available in ububto desktop
 
-## Goal 4 - Launch the bokeh-server
+## Goal 5 - Launch the bokeh-server
 
 Perform some examples using Bokeh ploting commands.
 
