@@ -82,7 +82,7 @@ Then open a browser in your computer and write the IP address of your VM.
 
 ## Goal 4 - Create in VM a shared folder with the host
 * In VM choose a shared folder in host by configuring: Devices - Shared Folderes - Shared Folder Settings
-* Install in ubunto
+* Install in ubuntu
 	```
 	--> sudo apt-get install virtualbox-guest-dkms
 	--> sudo apt-get install virtualbox-guest-utils
@@ -93,7 +93,7 @@ Then open a browser in your computer and write the IP address of your VM.
 	--> sudo adduser <user name> vboxsf
 	```
 * reboot VM
-* The new shared folder should become available in ububto desktop
+* The new shared folder should become available in ubuntu desktop
 
 ## Goal 5 - Launch the bokeh-server
 
