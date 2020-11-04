@@ -1,7 +1,7 @@
-# Lab 4 - Connecting to the Raspberry Pi
+# Lab 3 - Presential - Connecting to the Raspberry Pi
 
 
-## Pre Lab requirments
+## Pre Lab requirements
 
 * Install **bitvise** client (macos:command line **ssh** plus **cyberduck**)
 * Install **tightvnc** viewer (macos: **chicken of the VNC**)

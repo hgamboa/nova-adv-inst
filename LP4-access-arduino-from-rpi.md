@@ -1,8 +1,9 @@
-# Lab 5 - Setting up Arduino and Controling Arduino from raspberrypi
+# Lab 4 - Presential 
+# Setting up Arduino and Controling Arduino from raspberrypi
 
 ## PART I
 
-## Pre Lab requirments
+## Pre lab requirements
 
 * Install arduino IDE at  https://www.arduino.cc/en/Main/Software
 

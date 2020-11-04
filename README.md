@@ -2,26 +2,39 @@
 
 **Lab support materials**
 
-Here the students of MIEF and MIEBM can find the Lab Lessons for the first 10 labs. The project will be developed on the final 4 labs. Each lab declares the requirments to execute the lab and what should be prepared by the student.  
+Here the students of MIEF and MIEBM can find the Lab Lessons for the first remote and presential labs. The project will be developed on the final 3 labs. Each lab declares the requirments to execute the lab and what should be prepared by the student.  The remote labs require the submission of a pdf in moodle demonstrating the execution of the lab.
 
-## Lab 1 - Python language
+## Lab Work - Presential Work
 
-## Lab 2 - Python for computation
+### Lab P 1 - Python language exercices (in lecture slides)
 
-## Lab 3 - Python exercises
+### Lab P 2 - Python for scientific computation exercices (in lecture slides)
 
-## [Lab 4 - Connecting to Raspberry pi ](lab4-rpi.md)
+### Lab P 3 - [Connecting to Raspberry pi ](LP3-rpi.md)
 
-### [Lab 4.1 - Setting up a virtual raspberrypi](lab4.1-virtualization.md)
+### Lab P 4 - [Setting up and controling Arduino from a Raspberry Pi](LP4-access-arduino-from-rpi.md)
 
-## [Lab 5 - Setting up and controling Arduino from a Raspberry Pi](lab5-access-arduino-from-rpi.md)
+### Lab P 5 - [Logging data and realtime plotting](LP5-log.md)
 
-### [Lab 5.1 - Setting up Raspberry Pi](lab5.1-setting-up-raspberry-pi.md)
+### Lab P 6 - Project
 
-## [Lab 6 - Seting up a visualization server](lab6-vis-server.md)
 
-## [Lab 7 - Visualization](lab7-vis.md)
+## Remote Work 
 
-## [Lab 8 - Logging data and realtime plotting](lab8-log.md)
+Tasks to submit until the end of the remote lab week (20:00 Friday) on moodle.
 
-## [Lab 9 - Machine Learning on the raspberrypi](lab9-ml.md)
+### Lab R 1 - [Setting up a virtual raspberrypi](LR1-virtualization.md)
+
+### Lab R 2 - [Setting up a visualization server](LR2-vis-server.md)
+
+### Lab R 3 - [Visualization](LR3-vis.md)
+
+### Lab R 4 - [Machine Learning Exercises](LR4-ml.md)
+
+### Lab R 5 - Project
+
+### Lab R 6 - Project
+
+
+
+

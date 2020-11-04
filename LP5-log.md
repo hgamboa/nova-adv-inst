@@ -1,4 +1,4 @@
-# Lab 8 - Logging and plotting
+# Lab 5 - Presential - Logging and plotting
 
 ## Lab Goals
 
@@ -13,7 +13,7 @@ A websocket is a comunication protocol enabling fast bidirectional comunication 
 This protocol creates a persistent connection, which reduces the time needed to transfer data between two devices. Another advantage of being persistent is the hability of the server to send messages directly to a client (or even multiple) without being "asked", reducing the unwanted traffic in the network and the syncronization of multiple clients.
 
 
-The first thing to do is run the server. In order to do that, copy the files in the folder lab8 to your raspberry pi, and go to the folder were the server file is and type:
+The first thing to do is run the server. In order to do that, copy the files in the folder ***LP5*** to your raspberry pi, and go to the folder were the server file is and type:
 
 python3 server.py
 
