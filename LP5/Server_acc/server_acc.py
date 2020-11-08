@@ -13,7 +13,7 @@ from sensordroid import Client
 AccValueData=5
 
 #####################################################
-# routines to Sensordroid
+# routines of the Sensordroid
 def devicesDiscoveredEventHandler(devices):
     print(devices)
     if len(devices) > 0:
@@ -32,27 +32,30 @@ def devicesDiscoveredEventHandler(devices):
 def connectionUpdatedEventHandler(sender, msg):
     if sender is not None:
         if sender.connected:
-            print("Connected")
+            print("SensorDroid Connected")
         else:
-            print("Disonnected") 
+            print("SemsorDroid Disonnected") 
 
 def sensorsReceivedEventHandler(sender, dataCurrent):
     global AccValueData
     #print(sender.name + ": Acceleration [" + dataCurrent.Acceleration.Values.AsString + "]")
-    a=dataCurrent.Acceleration.Values.AsDouble
-    #print(a[0])
-    AccValueData=a[0]
-    print(AccValueData)
+    md=dataCurrent.Acceleration.Values.AsDouble
+    #print(a) #print all data received
+    AccValueData=md[0]
+    #print(AccValueData) #print accelarometer data 0
 
 
 
 def cameraReceivedEventHandler(sender, image):
     #Process image data bytes
-    print("New image");
+    #print("New image");
     pass
 
+
+
+
 ########################################################
-#Routines to server
+#Routines of the server
 
 
 # This class will be called when you visit or make a GET request
@@ -87,6 +90,8 @@ class WSHandler(tornado.websocket.WebSocketHandler):
             #self.write_message({'timestamp': time.time(), 'data': random.randint(0,10)})
             self.write_message({'timestamp': time.time(), 'data': AccValueData})
             #print(AccValueData)
+
+
 # We need to tell our webserver what is the path to the static folder, since the
 # html page will need to access files from this folder.
 settings = {"static_path": os.path.join(os.path.dirname(__file__), "static")}
@@ -101,7 +106,7 @@ application = tornado.web.Application(handlers=[
 ], **settings)
 
 
-#Lauch Sensordroid
+#Launch Sensordroid
 Client.devicesDiscovered = devicesDiscoveredEventHandler
 Client.startDiscovery()
 
@@ -111,7 +116,7 @@ Client.startDiscovery()
 
 http_server = tornado.httpserver.HTTPServer(application)
 http_server.listen(9999)
-print('System Ready. ^C to kill')
+print('Server Started in port 9999. ^C to kill')
 tornado.ioloop.IOLoop.instance().start()
 
 #close ServerDroid
