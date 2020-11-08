@@ -47,6 +47,12 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
 ** python3 SensorDroidNative.py
 * You should see now a flow of numbers, with the real time data of the phone sensors
 
+### Server_acc.py
 
+In folder LP5/Server_acc you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the acelarometer data of the phone and publish it through the websocket. As result, you will displayed in the chart the accelaromenter information. The time resolution of thar informations it will be dependent of requesting rate set in the html file.
 
-Change the code to use the data saved in the file to log from the arduino based on what was done on lab 5.
+## Goal 3
+
+Change the code server_acc to:
+* Read, simulatneaosly, diferent sensors of the phone
+* Save the data in a file
