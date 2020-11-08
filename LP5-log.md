@@ -39,6 +39,7 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
 **** sudo pip3 install sensordroid
 ** Download the python Native Example programa SensorDroidNative.py form:
 *** https://sites.google.com/view/sensordroid/getting-started/python
+*** of from folder LP5/Server_acc
 
 ### Testing SensorDroid
 * On your mobile run the SensorDroid App
@@ -49,7 +50,13 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
 
 ### Server_acc.py
 
-In folder LP5/Server_acc you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the accelerometer data of the phone and publish it through the websocket. As result, you will displayed in the chart the accelerometer information. The time resolution it will be dependent of requesting rate set in the html file.
+In folder LP5/Server_acc you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the accelerometer data of the phone and publish it through the websocket. Run:
+
+python3 server_acc.py
+
+As result, you will displayed in the chart the accelerometer information. The time resolution it will be dependent of requesting rate set in the html file.
+
+
 
 ## Goal 3
 
