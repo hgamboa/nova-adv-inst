@@ -29,7 +29,7 @@ Both server.py and examples.html files have comments explaing what everything do
 
 ## Goal 2
 
-Now we will modify the server that we configured in Goal 1, to display sensor data aquired from an Android Phone
+Now we will modify the server that we configured in Goal 1, to display sensor data acquired from an Android Phone
 
 ### Requirements
 
@@ -49,10 +49,11 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
 
 ### Server_acc.py
 
-In folder LP5/Server_acc you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the acelarometer data of the phone and publish it through the websocket. As result, you will displayed in the chart the accelaromenter information. The time resolution of thar informations it will be dependent of requesting rate set in the html file.
+In folder LP5/Server_acc you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the accelerometer data of the phone and publish it through the websocket. As result, you will displayed in the chart the accelerometer information. The time resolution it will be dependent of requesting rate set in the html file.
 
 ## Goal 3
 
 Change the code server_acc to:
-* Read, simulatneaosly, diferent sensors of the phone
+* Read, simultaneously, different sensors of the phone
 * Save the data in a file
+
