@@ -27,11 +27,11 @@ Both server.py and examples.html files have comments explaing what everything do
 
 
 
-# Goal 2
+## Goal 2
 
 Now we will modify the server that we configured in Goal 1, to display sensor data aquired from an Android Phone
 
-## Requirements
+### Requirements
 
 * From the Play Store, install in a Android Phone, the SensorDroid App
 * In your virtual machine:
@@ -40,7 +40,7 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
 ** Download the python Native Example programa SensorDroidNative.py form:
 *** https://sites.google.com/view/sensordroid/getting-started/python
 
-## Testing SensorDroid
+### Testing SensorDroid
 * On your mobile run the SensorDroid App
 ** Explore the app the verify which sensors are available in your phone
 * In the virtual machine do:
