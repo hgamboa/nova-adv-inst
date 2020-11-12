@@ -6,7 +6,7 @@ Save data in a file sampled from an arduino and plot the graph in realtime via a
 
 ## Goal 1 - Setup a server to plot the data in via a web page
 
-We will setup a server on raspberry py to bot serve webpages and send data via a websocket.
+We will setup a server on raspberry pi to bot serve webpages and send data via a websocket.
 
 A websocket is a comunication protocol enabling fast bidirectional comunication between a server and a/multiple client/s.
 
