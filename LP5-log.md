@@ -13,9 +13,9 @@ A websocket is a comunication protocol enabling fast bidirectional comunication 
 This protocol creates a persistent connection, which reduces the time needed to transfer data between two devices. Another advantage of being persistent is the hability of the server to send messages directly to a client (or even multiple) without being "asked", reducing the unwanted traffic in the network and the syncronization of multiple clients.
 
 
-The first thing to do is run the server. In order to do that, copy the files in the folder ***LP5*** to your raspberry pi, and go to the folder were the server file is and type:
+The first thing to do is run the server. In order to do that, copy the files in the folder ***LP5/Goal 1*** to your raspberry pi, and go to the folder were the server file is and type:
 
-python3 server.py
+***python3 server.py***
 
 This will lunch the server. Afterwards, go to a browser (remember that you have to be connected to the "pi" network) and navigate to http://YourRaspberryIp:9999.
 
@@ -39,7 +39,9 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
   * sudo pip3 install sensordroid
 * Download the python Native Example programa SensorDroidNative.py form:
   * https://sites.google.com/view/sensordroid/getting-started/python
-  * or from folder LP5/Server_acc/SensorDroid/
+  * or from folder ***LP5/Goal 2/Server_acc/SensorDroid/***
+* Check if the network settings of your VM is configured in Bridged Adapter mode
+  * Devices -> Network -> Network Settings
 
 ### Testing SensorDroid
 * On your mobile run the SensorDroid App
@@ -50,9 +52,9 @@ Now we will modify the server that we configured in Goal 1, to display sensor da
 
 ### Server_acc.py
 
-In folder LP5/Server_acc/ you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the accelerometer data of the phone and publish it through the websocket. Run:
+In folder ***LP5/Goal 2/Server_acc/*** you will find a new version of the server.py that you tried in Goal 1. Instead of generation random data, this version of the server reads the accelerometer data of the phone and publish it through the websocket. Type:
 
-python3 server_acc.py
+***python3 server_acc.py***
 
 As result, you will displayed in the chart the accelerometer information. The time resolution it will be dependent of requesting rate set in the html file.
 
