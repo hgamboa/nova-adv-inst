@@ -71,7 +71,7 @@ Change the code server_acc to:
 
 ## Additional note
 
-## For audio related projects the students can use the following android app Eu encontrei esta app: 
+## For audio related projects the students can use the following android app: 
 
 https://play.google.com/store/apps/details?id=com.portable.lanmic&hl=pt_PT
 
