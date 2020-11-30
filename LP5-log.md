@@ -68,3 +68,14 @@ Change the code server_acc to:
 * Read, simultaneously, different sensors of the phone
 * Save the data in a file
 
+
+## Additional note
+
+## For audio related projects the students can use the following android app Eu encontrei esta app: 
+
+https://play.google.com/store/apps/details?id=com.portable.lanmic&hl=pt_PT
+
+And test the output with this code (to extract additional audio samples s.recv(N) should continue to be called): 
+
+https://realpython.com/python-sockets/#echo-client
+
