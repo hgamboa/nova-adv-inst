@@ -53,8 +53,7 @@
 			var initial_time = -1
 			function raspConnect(){
 				// The first step is to try and connect to the web socket end point
-				// of our server. To know more about web sockets and their purpose
-				// consult the readme.md file inside the lab 9 folder.
+				// of our server. 
 				ws = new WebSocket('ws://' + document.getElementById("raspIP").value + ':9999/ws');
 				var interval = null	
 				// When the websocket opens, we will start sending messages requesting
