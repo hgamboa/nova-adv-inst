@@ -8,8 +8,8 @@
 
 ## Starting steps
 * Connect your laptop to the local lab network
-** ssid: pi
-** pass: raspberry
+  * ssid: **pi**
+  * pass: **raspberry**
 
 ## Lab Goals
 
