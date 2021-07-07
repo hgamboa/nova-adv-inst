@@ -15,12 +15,7 @@
 
 ## Goal 1 - Connect to the raspberry pi via ssh to the raspberry
 
-* Find the mac address of the wifi pen to copute the local ip address.
-** ex: 74Da38546692
-* Compute the decimal value of the two last hexadecimal digitis:
-** ex: HEX - 92 -> DEC - 146
-** Use a calculator to do the conversion or write in ipython with format 0x92 and view the reusult.
-
+* Find the number written on the raspberry pi cover a and use it as XXX
 
 * Connext via ssh to the raspberry pi
 
