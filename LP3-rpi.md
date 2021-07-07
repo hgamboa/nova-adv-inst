@@ -4,7 +4,7 @@
 ## Pre Lab requirements
 
 * Install **bitvise** client (macos:command line **ssh** plus **cyberduck**)
-* Install **tightvnc** viewer (macos: **chicken of the VNC**)
+* Install **vncviewer** viewer (for both macos and windows)
 
 ## Starting steps
 * Connect your laptop to the local lab network
@@ -17,21 +17,25 @@
 
 * Find the number written on the raspberry pi cover a and use it as XXX
 
-* Connext via ssh to the raspberry pi
+* Connext via ssh to the raspberry pi 
+ 
+ * on mac:
 
 `
 ssh pi@192.168.0.XXX
 `
 
+ * on bitvise, host: 192.168.0.XXX user: pi
+
 (XXX substitute with the computed local ip)
 
 ## Goal 2 - Folder for group work
 
-* Use sftp to create a new folder and copy some files
+* Use sftp (on bitvise or via cyberduck) to create a new folder and copy some files
 
 ## Goal 3 - Remote connect
 
-* Launch the vnc server (execute the following command in the shell)
+* Launch the vnc server (execute the following command in the shell of raspberry)
 
 `
 vncserver
