@@ -28,6 +28,7 @@ Windows:
 
 Use Bitvise and establish an SSH connection using the GUI with the `user` and `hostnanme` you found.
 
+
 macOS:
 
 Use the ssh command on the macOS terminal replacing `user` and `hostname` by the ones you found.
@@ -44,14 +45,15 @@ Establish an SFTP connection and create a new folder in the RPi. Copy some files
 To establish a remote connection, you will need to instantiate the VNC Server on the RPi. Only after the vncserver process started on the device is it possible to use the VNC Client to connect to the RPi.
 
 1. Launch the VNC Server in the RPi
+
 `
 vncserver
 `
 
 2. Use the VNC Viewer in your laptop and use the following connection details:
 
-Address: 192.168.0.XXX:1 (Replace XXX with the Host ID)
-Pass: raspberry
+**Address:** 192.168.0.XXX:1 (Replace XXX with the Host ID)
+**Pass:** raspberry
 
 Launch an IPython shell with
 

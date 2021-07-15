@@ -1,19 +1,18 @@
-# Lab 4 - Presential 
-# Setting up Arduino and Controling Arduino from raspberrypi
+# Lab 4 - Presential - Setting up Arduino and Controlling Arduino from Raspberry Pi
 
-## PART I
+## PART I - Setting up Arduino
 
 ## Pre lab requirements
 
-* Install arduino IDE at  https://www.arduino.cc/en/Main/Software
+* Install the [**Arduino Software (IDE)**](https://www.arduino.cc/en/software)
 
 
 ## Starting steps
-* Open arduino IDE
-* Connect via USB cable (A-B usb cable) to your laptop
-* Set connection on **tools** menu
-* Check that **board** sub menu is "Arduino Uno"
-* Adjust **port** sub menu to the arduino comm port.
+1. Open the Arduino IDE
+2. Connect via USB cable (A-B USB cable) to your laptop
+3. Set connection on the **tools** menu
+4. Check that the **board** sub menu is "Arduino Uno"
+5. Adjust **port** sub menu to the Arduino COM port.
 
 **WARNING**
 
@@ -22,44 +21,47 @@ __THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLL
 ## Part I Goals
 
 ## Goal 1 - Blinking Led
-* Run the code on the ide to run the blinkng code: **Blink**.
-
-* learn the following functions
+1. Run the code on the IDE to run the blinking code: **Blink**.
+2. learn the following functions:
 ```
 > pinMode
 > digitalWrite
 ```
+Hint: Check out the Arduino [Blink](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink) tutorial. 
+
 ## Goal 2 - Measuring
+1. Read a value function from an analog entry: **ReadAnalogVoltage**.
+2. Validate the reading using the multimeter.
+3. Learn the following functions:
 
-* Read a value function with from an analog entry: **ReadAnalogVoltage**.
-* Validate the reading using the multimeter.
-
-
-* learn the following functions:
 ```
 > analogRead
 > Serial.begin
 > Serial.println
 ```
 
+Hint: Check out the Arduino [ReadAnalogVoltage](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage) tutorial.
+
 ## Goal 3 - Deciding on threshold.
 
-* Combine the previous two goals on a threshold detector
-* Read an analog input and if higher than 3V turn on the led.
-* **Attention** the amplitude should be lower than 5v.
+1. Combine the previous two goals on a threshold detector
+2. Read an analog input and, if higher than 3V, turn on the LED.
+ **Attention** the amplitude should be lower than 5V.
 
 ## Goal 4 - Dimming a light.
-* Activate the PWM with a 1kHz function to dim the led light.
-* Use the code example
-* Verify on the osciloscope the PWM frequency and the width of the square wave.
+1. Activate the PWM with a 1kHz function to dim the LED light.
+2. Use the code example
+3. Verify on the oscilloscope the PWM frequency and the width of the square wave.
+4. Learn the following functions:
 
-* learn the following functions
 ```
 > analogWrite
 ```
 
+Hint: Check out the Arduino [Fade](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Fade) tutorial.
+
 ## Going deeper
-* Get to know the Atmega arquitecture: http://www.atmel.com/devices/atmega328p.aspx
+* Get to know the ATmega architecture: http://www.atmel.com/devices/atmega328p.aspx
 * Check project done with arduino:
 * http://www.makeuseof.com/tag/10-great-arduino-projects-for-beginners
 * https://startingelectronics.org/beginners/start-electronics-now/tut10-ten-arduino-projects-for-absolute-beginners/
@@ -77,47 +79,44 @@ __THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLL
 
 ### Setting up your Arduino for Firmata
 
-* On **File** menu:
-  - Select **Examples** -> **Firmata** -> **StandardFirmata**
-  - **Verify** and **Upload** Standard Firmata code to the Arduino board
+1. On **File** menu: Select **Examples** -> **Firmata** -> **StandardFirmata**
+2. **Verify** and **Upload** Standard Firmata code to the Arduino board
 
 ### Installing pyfirmata
 
-* Connect via ssh to rapsberry pi
-* Set up your Raspberry Pi with the python firmata libraries.
-  Run the following commands:
+1. Connect via SSH to the RPi
+2. Set up your RPi with the pyFirmata library. Run the following commands:
 ```
 > pi@raspberrypi~$ sudo apt-get install python-serial
 > pi@raspberrypi~$ sudo pip install pyfirmata
 ```
 
-### Find arduino port
+### Find the Arduino port
 
-* Find out the port name for the USB interface used:
-  - Run this command in terminal without Arduino plugged in:
+1. Find out the port name for the USB interface used. Run this command in the terminal without Arduino plugged in:
+
 ```
 > ls /dev/tty*
 ```
 
-  - Plug in the Arduino to the Raspberry Pi with USB cable
-  - Run the command again. If a new name appears, then this is the name of your port.
-  Register it to be further used.
+2. Plug in the Arduino to the Raspberry Pi with a USB cable 
+3. Rerun the command. If a new name appears, then this is the name of your port.  Register it to be further used.
 
 ## Goal 1 - Connecting to an Arduino
 
-* Create a file 'ex1.py' in ‘/home/pi/lab5’ directory (or open an ipython console)
-* Import the Arduino and util classes from the pyfirmata module and create an object using the USB address you found in the previous step:
-```
->>> from pyfirmata import Arduino, util
->>> board = Arduino('/dev/ttyUSB0') # example
-```
+1. Create a file `ex1.py` in `/home/pi/lab5` directory (or open an IPython console)
+2. Import the Arduino and util classes from the pyfirmata module and create an object using the USB address you found in the previous step:
 
+```python
+from pyfirmata import Arduino, util
+board = Arduino('/dev/ttyUSB0') # example
+```
 
 ## Goal 2 -  Blink a LED
 
-* Use digital pin 13, which is connected to an internal LED.
-* LED on pin 13 should blink for 10 times (time ON = 1s and time OFF = 1s)
-* Close pyFirmata after it is done
+1. Use digital pin 13, which is connected to an internal LED.
+2. LED on pin 13 should blink 10 times (time ON = 1s and time OFF = 1s)
+3. Close pyFirmata after it is done
 
 Learn the following functions:
 ```
@@ -126,16 +125,17 @@ Learn the following functions:
     >>> board.exit()
 ```
 
-### Goal 3 - Controlling analog ports
+## Goal 3 - Controlling analog ports
 
-* To use analog ports, it is handy to start an iterator thread:
-```
-    >>> it = util.Iterator(board)
-    >>> it.start()
-    >>> board.analog[0].enable_reporting()
+1. To use analog ports, it is handy to start an iterator thread:
+
+```python
+it = util.Iterator(board)
+it.start()
+board.analog[0].enable_reporting()
 ```
 
-* Reads an analog input on pin A0, and prints the result, repeatedly for 2 minutes (sampling_rate = 10 Hz).
+2. Read an analog input on pin A0 and print the result repeatedly, for 2 minutes (sampling_rate = 10 Hz).
 
 Learn the following functions:
 ```
@@ -143,8 +143,8 @@ Learn the following functions:
     >>> board.analog[0].read()
 ```
 
-* Save the data received from pin A0 in a file 'data_analog.txt'.
-* The file should have 2 columns:
+3. Save the data received from pin A0 in a file `data_analog.txt`.
+4. The file should have 2 columns:
  - Column 1 - current time (s)
  - Column 2 - pin A0 data (V)
 
@@ -159,11 +159,11 @@ Learn the following functions:
 
 ## Goal 4 - Dimming a LED
 
-* Adapt the code from link 4 about dimming a LED
-* Define a digital pin as PWM
-* The time to reach the max/min of brightness should be 5 s
-* Number of steps to get to the max/min -> use STEPS = 10
-* The LED should be brightening and dimming repeatedly for 2 minutes
+1. Adapt the code from link 4 about dimming a LED
+2. Define a digital pin as PWM
+3. The time to reach the max/min of brightness should be 5 s
+4. Number of steps to get to the max/min -> use STEPS = 10
+5. The LED should be brightening and dimming repeatedly for 2 minutes
 
 Learn the following functions:
 ```
