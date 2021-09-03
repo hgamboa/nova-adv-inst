@@ -26,12 +26,12 @@ The user is `pi`. The host ID is written on your RPi cover. You must use it to f
 
 Windows:
 
-Use Bitvise and establish an SSH connection using the GUI with the `user` and `hostnanme` you found.
+Use Bitvise and establish an SSH connection using the GUI with the `user` and `hostname` you found.
 
 
 macOS:
 
-Use the ssh command on the macOS terminal replacing `user` and `hostname` by the ones you found.
+Use the ssh command on the macOS terminal replacing `user` and `hostname` you found.
 
 `
 ssh user@hostname

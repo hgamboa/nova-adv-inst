@@ -16,13 +16,13 @@
 
 **WARNING**
 
-__THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLLY DAMAGE THE BOARD.__
+__:warning: THE ARDUINO SHOULD NEVER RECEIVE VOLTAGE HIGHER THAN 5V. THIS WILL IRREPARABLLY DAMAGE THE BOARD.__
 
 ## Part I Goals
 
 ## Goal 1 - Blinking Led
-1. Run the code on the IDE to run the blinking code: **Blink**.
-2. learn the following functions:
+1. Run the blinking code (**Blink**) on the IDE.
+2. Learn the following functions:
 ```
 > pinMode
 > digitalWrite
@@ -63,9 +63,9 @@ Hint: Check out the Arduino [Fade](https://www.arduino.cc/en/Tutorial/BuiltInExa
 ## Going deeper
 * Get to know the ATmega architecture: http://www.atmel.com/devices/atmega328p.aspx
 * Check project done with arduino:
-* http://www.makeuseof.com/tag/10-great-arduino-projects-for-beginners
-* https://startingelectronics.org/beginners/start-electronics-now/tut10-ten-arduino-projects-for-absolute-beginners/
-* http://www.instructables.com/id/Beginner-Arduino/
+  * http://www.makeuseof.com/tag/10-great-arduino-projects-for-beginners
+  * https://startingelectronics.org/beginners/start-electronics-now/tut10-ten-arduino-projects-for-absolute-beginners/
+  * http://www.instructables.com/id/Beginner-Arduino/
 * You can used 123D circuits to simulate, program and test Arduino code: https://123d.circuits.io
 
 
@@ -75,7 +75,7 @@ Hint: Check out the Arduino [Fade](https://www.arduino.cc/en/Tutorial/BuiltInExa
 # Part II -  Python PyFirmata
 
 
-## Pre requirements
+## Initial Setup
 
 ### Setting up your Arduino for Firmata
 
