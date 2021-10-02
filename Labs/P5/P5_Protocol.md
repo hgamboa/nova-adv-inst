@@ -1,4 +1,4 @@
-# Lab 4 - Presential - Setting up Arduino and Controlling Arduino from Raspberry Pi
+# Lab 5 - Setting up Arduino and Controlling Arduino from Raspberry Pi
 
 ## PART I - Setting up Arduino
 

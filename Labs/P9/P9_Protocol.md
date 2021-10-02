@@ -1,4 +1,4 @@
-# Remote Lab 4 - Machine Learning with Orange and SkLearn
+# Lab 9 - Machine Learning with Orange and Scikit-learn
 
 
 ## Requirements

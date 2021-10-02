@@ -1,4 +1,4 @@
-# Remote Lab 3 - Visualization
+# Lab 7 - Visualization
 
 
 ## Requirements

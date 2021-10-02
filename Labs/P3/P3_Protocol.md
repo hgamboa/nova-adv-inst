@@ -1,4 +1,4 @@
-# Remote Lab 1 - Virtual Raspberry pi 
+# Lab 3 - Virtual Raspberry Pi 
 
 ## Requirements
 
@@ -42,17 +42,9 @@
  > sudo apt-get install ipython python-scipy python-matplotlib jupyter-notebook
 ```
 
-
-## Report - :red_circle: Until Friday 20:00 of your remote lecture
-
-* Submit a pdf in moodle with a screenshot of your virtual machine with a terminal inside the created directory.
-
-
-
 ## Going deeper 
 * Check the shell tutotial http://www.ee.surrey.ac.uk/Teaching/Unix/
 * Vi list of commands: http://www.lagmonster.org/docs/vi2.html
 * The Linux Command Line Book: http://linuxcommand.org/tlcl.php
 * Using amazon cloud computing infrastructure - AWS: https://github.com/hgamboa/novaelphy/blob/master/CloudComputing/Cloud%20Computing.ipynb
-
 

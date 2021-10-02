@@ -1,4 +1,4 @@
-# Lab 5 - Presential - Logging and real time plotting
+# Lab 8 - Logging and real time plotting
 
 ## Lab Goal
 Build a web application running in the RPi which receive, save and plot realtime sensor data via a WebSocket.

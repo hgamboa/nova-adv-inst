@@ -1,4 +1,4 @@
-# Remote Lab 2 - Setting up a vizualization server in a VM
+# Lab 6 - Setting up a vizualization server in a VM
 
 ## Requirements
 In your VM created in LR1: 
