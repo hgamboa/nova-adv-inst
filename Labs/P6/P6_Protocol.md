@@ -100,11 +100,6 @@ Then open a browser in your computer and write the IP address of your VM.
 Perform some examples using Bokeh ploting commands.
 
 
-## Report - :red_circle: Until Friday 20:00 of your remote lecture
-
-* Submit a pdf in moodle with a screenshot of a bokeh plot produced in your jupiter notebook
-
-
 ## Going deeper
 * See the 5 minute intro to bokeh: http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/quickstart/quickstart.ipynb
 * See more advanced examples on the workshop from Cristine Doig: http://chdoig.github.io/scipy2015-blaze-bokeh/#/
