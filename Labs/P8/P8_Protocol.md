@@ -30,7 +30,7 @@ Our web app will rely on Socket.io as our WebSocket interface. Socket.IO is a Ja
 To use Socket.io in the server-side (RPi) we will use the Flask-SocketIO Python package. In the webpage we will import the Socket.IO JavaScript library in the html code.
 
 1. Write a Flask app that sends random integers being generated at a frequency of 1 Hz and run in your laptop.
-   We already provide some starting code available [here](LP5/Goal_2/). Study the code and complete the 3 TODOs which are identified 
+   We already provide some starting code available [here](Goal_2/). Study the code and complete the 3 TODOs which are identified 
 2. Copy the Flask app to the RPi and deploy the server.
 3. Make the server publicly available so you can access it with your laptop and/or smartphone.
 
