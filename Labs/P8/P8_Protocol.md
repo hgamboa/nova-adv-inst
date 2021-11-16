@@ -40,7 +40,7 @@ In this goal, we will implement a real-time visualization of incoming random dat
 This goal is demonstrative. You should take this time to study and understand the provided code thoroughly.
 
 1. Reuse the same `app.py`from the previous goal to emit a message upon request with a random integer.
-2. Study the HTML and JavaScript code available in the [here](LP5/Goal_3/templates/index.html)  
+2. Study the HTML and JavaScript code available in the [here](Goal_3/templates/index.html)  
 3. Copy the Flask app to the RPi and deploy the server.
 4. Make the server publicly available so you can access it with your laptop and/or smartphone.
 
