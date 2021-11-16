@@ -50,7 +50,7 @@ Now we will modify the server that we have previously configured to display sens
 1. Explore the sensors available on your Android phone with the [Sensors Multi](https://play.google.com/store/apps/details?id=com.wered.sensorsmultitool) app. It is suggested that you study the accelerometer in more detail. You can read the [Android developer guide](https://developer.android.com/guide/topics/sensors/sensors_motion#sensors-raw-data) documentation to understand how you can work with accelerometer data.
 2. Configure your [SensorStreamer](https://play.google.com/store/apps/details?id=cz.honzamrazek.sensorstreamer) app to stream a JSON packet with Accelerometer data at Medium period (60 ms).
 3. Write a Flask app that receives real-time accelerometer data, calculates the magnitude of the acceleration, and retransmits it through a WebSocket, so you can visualize the data in real-time. The data in the smartphone must be acquired every 60 ms. The data must be sampled at 40 Hz.  
-   We already provide some starting code available [here](LP5/Goal_4/). Study the code and complete the 3 TODOs which are identified.
+   We already provide some starting code available [here](Goal_4/). Study the code and complete the 3 TODOs which are identified.
    The implementation assumes you will start acquiring the smartphone data with before launching the [SensorStreamer](https://play.google.com/store/apps/details?id=cz.honzamrazek.sensorstreamer) app.
 4. Make the server publicly available so you can access it with your laptop and/or smartphone.
 5. Change the `app.py` to receive additional sensors and save all the sensor data in a file. You might consider reducing the acquisition sampling rate to reduce the bandwidth.
