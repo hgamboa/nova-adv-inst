@@ -21,7 +21,6 @@ def event_stream():
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         host = "192.168.1.77"
-        # host = "10.211.136.20"
         port = 3600
         s.connect((host, port))
 
@@ -50,7 +49,7 @@ def handle_my_custom_event(json):
     print('Client connected')
 
     # Start the thread only if the thread has not been started before.
-    if not thread.isAlive():
+    if not thread.isAlive():  # For Python > 3.9.x use: if not thread.is_alive():
         print("Starting Thread")
         thread = socketio.start_background_task(event_stream)
 
