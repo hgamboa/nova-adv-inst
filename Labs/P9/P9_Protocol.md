@@ -28,7 +28,7 @@ Then connect several classifiers to the Test and Score Module:
 
 The structure should be similar to:
 
-![Orange Compare](images/orangecompare.png)
+![Orange Compare](../images/orangecompare.png)
 
 #### Test the best features
 
