@@ -1,41 +1,45 @@
-# Lab 7 - Visualization
+# Lab 4 - Visualization with MatPlotLib
 
 
 ## Requirements
 
-* Install bokeh via pip or via the full anaconda distribuition
-* Install nova instrumentation
+* Install MatPlotLib via pip in your RPI
+  *  sudo pip install matplotlib
+* Documentation about MatPlotLib in:
+  *  https://matplotlib.org/stable/index.html
 
 
 ## Starting steps
 
-* Test simple graph on ipython notebook
+* Use jupyter notebook or spyder
+* Implelement and test the Getting Started example found in:
+  * https://matplotlib.org/stable/users/getting_started/
 
 ## Lab Goals
 
-## Goal 1 - Transfer function of a low pass
+## Goal 1 - XY Graph
 
-* Plot the DB of the transfer function of the gain in a frequency log scale.
+* Draw a xy graph of a sin(w) and cos(2w)
+* Adjust the axis to be a square figure
+* Place 9 lissajous figures in subplots
 
-|H| = 1/sqrt(1 + (f/f_c)^2)
+## Goal 2 - Transfer function of a low pass filter
 
+* Choose an cutoff frequency (f_c) and a frequency range to be analysed 
+* Plot the amplitude of the transfer function of the gain in a frequency log scale (DB scale).
+  * |H| = 1/sqrt(1 + (f/f_c)^2)
 * Plot the phase of the transfer function in degrees in a frequency log scale.
-
-phase(H) = -2 arctan(f/f_c)
+  * phase(H) = -2 arctan(f/f_c)
 
 
 ## Goal 2 - Random walk
 
 * Plot a random walk (1000 samples)
+  * search 'python randam walk' for inspiration
 * Plot the mean sliding window (using ni.smooth, with 50 samples window).
 * Plot the variance band.
 * Draw multiples superimposed random walks.
 
-## Goal 3 - XY Graph
-
-* Draw a xy graph of a sin(w) and cos(2w)
-* Adjust the axis to be a square figure
-* Place 9 lissajous figures in subplots
 
 ## Goal 4 - Matrix images
 
