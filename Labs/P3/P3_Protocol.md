@@ -1,4 +1,4 @@
-# Lab 4 - Connecting to the Raspberry Pi
+# Lab 3 - Connecting to the Raspberry Pi
 
 ## Pre Lab requirements
 * For this lab you will need to install a [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) and an [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) client to connect to the Raspberry Pi (RPi). To help interact with the RPi in the headless mode, you will also install a remote access software with a GUI.
