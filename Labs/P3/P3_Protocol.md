@@ -87,7 +87,7 @@ Remember to copy first, the scripts to the RPI.
 
 Use the VNC Viewer in your laptop and use the following connection details:
 
-**Address:** 192.168.0.### (Replace ### with the Host ID)
+**Address:** 192.168.1.### (Replace ### with the Host ID)
 **Pass:** 1234
 
 Launch an IPython shell with
