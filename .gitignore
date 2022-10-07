@@ -139,3 +139,4 @@ cython_debug/
 
 # Custom folders
 LP5_solutions/
+.DS_Store
