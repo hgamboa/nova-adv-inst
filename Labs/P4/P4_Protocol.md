@@ -3,16 +3,16 @@
 
 ## Requirements
 
-* Install MatPlotLib via pip in your RPI
-  *  sudo pip install matplotlib
+* If not yet installed, install MatPlotLib via pip in your RPI
+  *  `sudo apt-get install libatlas-base-dev`
+  *  `sudo pip install matplotlib`
 * Documentation about MatPlotLib in:
   *  https://matplotlib.org/stable/index.html
 
 
 ## Starting steps
 
-* Use jupyter notebook or spyder
-* Implelement and test the Getting Started example found in:
+* Using jupyter notebook, implement and test the Getting Started example found in:
   * https://matplotlib.org/stable/users/getting_started/
 
 ## Lab Goals
@@ -47,11 +47,6 @@
 by turning some points to 1
 * Smooth the image with a vertical smooth by passing in each column.
 * Smooth the image with a vertical smooth and horizontal pass.
-
-
-## Report - :red_circle: Until Friday 20:00 of your remote lecture
-
-* Submit a pdf in moodle with a screenshot of all 4 plots
 
 
 ## Going deeper 
