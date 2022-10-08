@@ -83,6 +83,13 @@ Try to run some of scripts that you develop in P1 & P2.
 
 Remember to copy first, the scripts to the RPI.
 
+**Note:** 
+If you intend to run Notebook scripts with plots, you will notice that all the matplotlib functions will give an error.
+The reason for that is the matplotlib is not yet installed in the RPI. To install it, open a shell and run the following commands:
+* `sudo apt-get install libatlas-base-dev`
+* `sudo pip3 install matplotlib`
+
+
 ## Goal 4 - Remote connect to the RPi
 
 Use the VNC Viewer in your laptop and use the following connection details:
