@@ -6,14 +6,17 @@
 * If not yet installed, install MatPlotLib via pip in your RPI
   *  `sudo apt-get install libatlas-base-dev`
   *  `sudo pip install matplotlib`
+  *  `sudo pip install numpy --update`
 * Documentation about MatPlotLib in:
   *  https://matplotlib.org/stable/index.html
 
 
 ## Starting steps
 
-* Using jupyter notebook, implement and test the Getting Started example found in:
+* if you have not done any application with matplotlib before, try the Getting Started example found in:
   * https://matplotlib.org/stable/users/getting_started/
+* Take a moment a see some of the examples available in:
+  * https://matplotlib.org/stable/gallery/index.html
 
 ## Lab Goals
 
