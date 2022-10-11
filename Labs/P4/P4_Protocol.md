@@ -6,7 +6,7 @@
 * If not yet installed, install MatPlotLib via pip in your RPI
   *  `sudo apt-get install libatlas-base-dev`
   *  `sudo pip install matplotlib`
-  *  `sudo pip install numpy --update`
+  *  `sudo pip install numpy --upgrade`
 * Documentation about MatPlotLib in:
   *  https://matplotlib.org/stable/index.html
 
