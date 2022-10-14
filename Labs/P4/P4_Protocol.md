@@ -5,8 +5,8 @@
 
 * If not yet installed, install MatPlotLib via pip in your RPI
   *  `sudo apt-get install libatlas-base-dev`
-  *  `sudo pip install matplotlib`
-  *  `sudo pip install numpy --upgrade`
+  *  `sudo pip3 install matplotlib`
+  *  `sudo pip3 install numpy --upgrade`
 * Documentation about MatPlotLib in:
   *  https://matplotlib.org/stable/index.html
 
@@ -35,7 +35,7 @@
   * phase(H) = -2 arctan(f/f_c)
 
 
-## Goal 2 - Random walk
+## Goal 3 - Random walk
 
 * Plot a random walk (1000 samples)
   * search 'python randam walk' for inspiration
