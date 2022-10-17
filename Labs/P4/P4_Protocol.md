@@ -9,6 +9,9 @@
   *  `sudo pip3 install numpy --upgrade`
 * Documentation about MatPlotLib in:
   *  https://matplotlib.org/stable/index.html
+*  To install novainstrumentation:
+   *  `sudo apt install -y python3-scipy`
+   *  `sudo pip3 install novainstrumentation`
 
 
 ## Starting steps
