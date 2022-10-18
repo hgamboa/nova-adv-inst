@@ -87,8 +87,7 @@ Hint: Check out the Arduino [Fade](https://www.arduino.cc/en/Tutorial/BuiltInExa
 1. Connect via SSH to the RPi
 2. Set up your RPi with the pyFirmata library. Run the following commands:
 ```
-> pi@raspberrypi~$ sudo apt-get install python-serial
-> pi@raspberrypi~$ sudo pip install pyfirmata
+> pi@raspberrypi~$ sudo pip3 install pyfirmata
 ```
 
 ### Find the Arduino port
