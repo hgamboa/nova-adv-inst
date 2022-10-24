@@ -1,4 +1,4 @@
-# Lab 5 - Building a Flask Web Application
+# Lab 6 - Building a Flask Web Application
 
 ## Lab Goal
 
