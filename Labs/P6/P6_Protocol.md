@@ -29,8 +29,8 @@ Before developing into the development of the WebSocket server, we will set up a
 1. Write a minimal application in Flask which prints "Hello, World!" on a static webpage. Use nano editor to do it. See following link:
    1. [Quickstart &#8212; Flask Documentation (2.0.x)](https://flask.palletsprojects.com/en/2.0.x/quickstart/#a-minimal-application)
 2. Make the server publicly available so you can access it with your laptop and/or smartphone, run the following commands in the command prompt of the RPI
-   1. export FLASK_APP=<your program name>
-   2. flask run --host=<the IP of your RPI>
+   1. export FLASK_APP=*(your program name)*
+   2. flask run --host=*(the IP of your RPI)*
 3. At this point, flask web server should have generated a link that you can use in the browser of your computer
 
 **Hint:** For further information see: [Flask quickstart documentation](https://flask.palletsprojects.com/en/2.0.x/quickstart/) and [The Flask Mega-Tutorial Part I](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
@@ -66,7 +66,7 @@ If we intend to do a rich web interface, we must be able to built our own html c
 In our applications frequently is necessary to exchange data in real time, between the python program the web page. To do that we will rely on Socket.io as our WebSocket interface. Socket.IO is a JavaScript library f. It enables realtime, bi-directional communication between web clients and servers.
 To use Socket.io in the server-side (RPi) we will use the Flask-SocketIO Python package. In the webpage we will import the Socket.IO JavaScript library in the html code.
 
-1. You can find a starting code in <place link>. This code show out to stablish a socket link bewteen the python code and the web page, and how to send a randam number every second. Study this code carefully to understand its function blocks
+1. You can find a starting code in (https://github.com/hgamboa/nova-adv-inst/tree/master/Labs/P6/Starting%20code/EX_1). This code show out to stablish a socket link bewteen the python code and the web page, and how to send a randam number every second. Study this code carefully to understand its function blocks
 2. Change the code to send a list to 5 random numbers every second and display then in web page
 3. change the code to send a string of text, every 2 sec, and display them in the web page 
 4. I all the previous situation the request of data by the web page is made periodically. change the program so the request is made only on a button is pressed.
@@ -78,7 +78,7 @@ In this goal, we will implement a real-time visualization of incoming random dat
 This goal is demonstrative. You should take this time to study and understand the provided code thoroughly.
 
 1. Reuse the same `app.py`from the previous goal to emit a message upon request with a random integer.
-2. Study the HTML and JavaScript code available in the [here](Goal_3/templates/index.html)  
+2. Study the HTML and JavaScript code available in the (https://github.com/hgamboa/nova-adv-inst/tree/master/Labs/P6/Starting%20code/EX_2) 
 3. Copy the Flask app to the RPi and deploy the server.
 4. Make the server publicly available so you can access it with your laptop and/or smartphone.
 
