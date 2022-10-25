@@ -46,13 +46,13 @@ If we intend to do a rich web interface, we must be able to built our own html c
   - [HTML Tutorial](https://www.w3schools.com/html/default.asp)
 
 - Edit now you your python program from goal 1 and change it to:
-'''
+```
     from flask import Flask, render_template
     app = Flask(__name__)
     @app.route("/")
     def hello_world():
         return render_template('index.html')
- '''
+```
 
 - Run your new program and see the result in the browser of you computer
 
