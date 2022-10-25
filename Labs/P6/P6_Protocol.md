@@ -9,14 +9,14 @@ Build a web application running in the RPi which receive, save and plot realtime
 Before the lab you should install the required dependencies: 
 
 * [**Flask**](https://flask.palletsprojects.com/en/2.0.x/)
-  * `sudo pip3 install Flask`
-  * `sudo pip3 install Flask --update`
+  * `sudo pip3 install Flask==2.1.0`
+[comment]:  * `sudo pip3 install Flask --update`
 * [**Flask-SocketIO**](https://flask-socketio.readthedocs.io/en/latest/)
   * `sudo pip3 install flask-socketio`
 
 **Note:** If during the executions of your programs, jinja2 library is not found, install it by:
 
--  `sudo pip3 install jinja2`
+-  `sudo pip3 install jinja2 `
 
 ## Lab Goals
 
