@@ -10,7 +10,7 @@ Before the lab you should install the required dependencies:
 
 * [**Flask**](https://flask.palletsprojects.com/en/2.0.x/)
   * `sudo pip3 install Flask==2.1.0`
-[comment]:  * `sudo pip3 install Flask --update`
+
 * [**Flask-SocketIO**](https://flask-socketio.readthedocs.io/en/latest/)
   * `sudo pip3 install flask-socketio`
 
