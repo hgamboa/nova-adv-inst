@@ -25,39 +25,39 @@
 
 			function raspConnect(){
 
-            // Initialize the socket
-            var socket = io(document.getElementById("raspIP").value + ':5000/');
-            var interval = null;
-            var initial_time = -1
+			    // Initialize the socket
+			    var socket = io(document.getElementById("raspIP").value + ':5000/');
+			    var interval = null;
+			    var initial_time = -1
 
-            // Create a simple line chart
-            var data = {
-                // A labels array that can contain any sort of values. It will be your x_labels
-                labels: [],
-                // Our series array that contains series objects or in this case series data arrays
-                series: [
-                        []
-                ]
-            };
+			    // Create a simple line chart
+			    var data = {
+				// A labels array that can contain any sort of values. It will be your x_labels
+				labels: [],
+				// Our series array that contains series objects or in this case series data arrays
+				series: [
+					[]
+				]
+			    };
 
-            var options = {
-            //	width: '300px',
-            //	height: '200px'
-            };
+			    var options = {
+			    //	width: '300px',
+			    //	height: '200px'
+			    };
 
-            var chart = new Chartist.Line('#chart', data, options);
+			    var chart = new Chartist.Line('#chart', data, options);
 
-            // This function is called after the socket is initiated
-            socket.on('connect', function() {
+			    // This function is called after the socket is initiated
+			    socket.on('connect', function() {
 
-                // Upon a successful connection it starts sending data requests periodically to the server
-                interval = setInterval(function(){
-                        socket.emit('sendData', JSON.stringify({type:'sendData'}))
-                        }, 1000);
+				// Upon a successful connection it starts sending data requests periodically to the server
+				interval = setInterval(function(){
+					socket.emit('sendData', JSON.stringify({type:'sendData'}))
+					}, 1000);
 
-                console.log("DEBUG: A sendData request was sent to the server.");
+				console.log("DEBUG: A sendData request was sent to the server.");
 
-            });
+			    });
 
             socket.on('serverResponse', function(msg) {
 				// If condition to set the initial time
