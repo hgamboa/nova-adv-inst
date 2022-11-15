@@ -48,6 +48,11 @@ Recreate the pipeline to use the *housing* dataset. A description of the dataset
 3. Evaluate in the Test and Score widget.
 
 ## Goal 2 - Introduction to Scikit Learn. Train, evaluate and deploy a machine learning model
+
+To install the Scikit in your RPI:
+* `sudo apt-get install python3-scipy`
+* `sudo pip3 install -U scikit-learn`
+
 In this goal you will use Scikit Learn (also known as sklearn). Scikit-learn is one of the most popular machine learning libraries.
 You will train a model to classify digits. You can use the Spyder IDE to create your script. 
 
